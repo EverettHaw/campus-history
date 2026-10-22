@@ -1,6 +1,6 @@
 ---
 title: Student Publishing Guide
-layout: wide
+layout: essay
 date: 2026-08-04
 permalink: /student-guide/
 ---
