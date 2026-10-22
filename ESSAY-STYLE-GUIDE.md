@@ -107,7 +107,7 @@ When in doubt, preserve the original text and leave a note or ask for direction.
 ## Checklist For Each Essay
 
 - Front matter is intact and valid.
-- Front matter includes a `header-title` when the page has a hero image; this should contain the essay/building title that displays over the image.
+- The title over the hero image is right. The hero shows `header-title` when there is one and `title` otherwise, so add `header-title` only when the two should differ.
 - Front matter includes a normalized `category` for the page-header eyebrow.
 - Any body-level `#` heading immediately below the page header has been converted to `header-title` and removed from the body.
 - The first body element after the page header is a clear lead paragraph, not an image, carousel, pullquote, raw HTML block, or heading.

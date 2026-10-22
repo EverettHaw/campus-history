@@ -1,17 +1,23 @@
 ---
-title: Starter Essay Advanced
+# Change these five lines as soon as you copy this starter.
+title: Your Essay Title
 author: Your Name
-layout: essay
-date: 2026-11-12
-header-title: Your Campus Topic
-header-subtitle: Replace this with a short phrase if your essay needs one
-category: Starter Essay
-popup-teaser: Replace this with one clear sentence that makes readers want to know more.
+category: Starter Essay                  # change to a category from the student guide
+header-image: sample-archive-photo.jpg   # the filename of your own image
+header-caption: Replace with where your header image came from. Plain text only, no links.
+
+# Fill these in later, once your research is under way.
 card-description: Replace this with two sentences that summarize the story your essay tells and why it matters.
-header-image: sample-archive-photo.jpg
-header-caption: Replace with a short source note for the header image. Plain text only here, no links.
-header-position: center center
-start: 1950
+start:                                   # the year your story begins, shown on the map
+
+# Optional. Delete any line you do not use.
+header-title: A Different Title         # shown over the header image instead of title
+header-subtitle: A short phrase          # shown under that title
+header-position: center center           # which part of the header image stays in view
+popup-teaser: One sentence for the map and homepage   # used there instead of card-description
+
+# Leave this line as it is.
+layout: essay
 ---
 
 This advanced starter contains one working example of every component the site offers. It is a parts catalog, not a model essay. **Delete every component you do not need.** A clean essay with four well-chosen images beats a cluttered one that uses all of these at once.

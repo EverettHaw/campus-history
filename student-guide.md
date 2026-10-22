@@ -54,23 +54,9 @@ Use one of these:
 - `starter-essay-simple` — best for most essays. It already contains everything a finished essay needs: a lead paragraph, subheadings, captioned images, a carousel, and a bibliography. Replace the placeholder text and images and you have a complete page.
 - `starter-essay-advanced` — a parts catalog containing one working example of every component the site offers, including pullquotes, image grids, before/after sliders, footnotes, banner images, and full-screen scrollstory sections. Start here only if you want the fuller set, and delete every component you do not use.
 
-Do not edit the starter folder directly. Copy it first, then rename the copy. Every student starts from the same starter, so a change to it collides with everyone else's pull request.
+### Choose a Folder Name
 
-To copy the folder, use GitHub's web editor:
-
-1. Open your fork on GitHub and press `.` (the period key). Your repository opens in an editor in your browser.
-2. In the file list on the left, open the `essays` folder.
-3. Right-click `starter-essay-simple` and choose `Copy`. Then right-click the `essays` folder and choose `Paste`. The copy appears as `starter-essay-simple copy`.
-4. Right-click the copy, choose `Rename`, and type your folder name.
-5. Click the Source Control icon in the left sidebar, type a short message such as `Start my essay`, and click `Commit & Push`.
-
-Nothing you change in the editor reaches your fork or your preview site until you commit. Commit this way each time you finish a round of changes.
-
-Your copied folder should be named like this:
-
-```text
-essays/mesa-vista-hall
-```
+Pick your folder name before you copy anything. It becomes part of your essay's web address, as in `/essays/mesa-vista-hall/`.
 
 Folder names must be:
 
@@ -82,48 +68,119 @@ Folder names must be:
 
 The folders already in `essays` show the pattern: `duck-pond`, `maxwell-museum`, `sara-raynolds-hall`. Check that list before you name yours. If your topic already has a folder, add a word that sets yours apart, such as `duck-pond-1970s`. Even `mesa-vista-hall`, the example on this page, is taken by the site's demo essay. Two essays in the same folder would overwrite each other.
 
-Inside your copied folder, keep the file named `index.md`. That file is your essay; everything else in the folder is an image or other media it uses. Your folder should now look something like this:
+### Copy the Starter Folder
 
-```text
-essays/mesa-vista-hall/index.md
-essays/mesa-vista-hall/sample-archive-photo.jpg
-```
+Do not edit the starter folder itself. Copy it, then rename the copy. Every student starts from the same starter, so a change to it collides with everyone else's pull request.
+
+You will do this in GitHub's web editor, which runs in your browser. Use a laptop or desktop computer: the editor depends on right-clicking and does not work well on a phone or tablet. On a Mac trackpad, right-click by clicking with two fingers, or by holding `Control` while you click.
+
+1. **Open your fork.** Go to `https://github.com/YOUR-USERNAME/campus-history`. Check that the address shows your username, not `amaranth-unm`. If it shows `amaranth-unm`, you are in the main repository, and you cannot save changes there.
+2. **Open the editor.** Press `.` (the period key). If nothing happens, click a blank part of the page and press `.` again, or change `github.com` to `github.dev` in the address bar and press `Enter`. Sign in if GitHub asks. The editor opens with a list of files down the left side.
+3. **Open the `essays` folder.** Click `essays` in the file list. It expands into a list of folders, one for each essay, in alphabetical order. Find `starter-essay-simple` under S.
+4. **Copy the starter.** Right-click `starter-essay-simple` and choose `Copy`. Nothing visible happens. That is normal.
+5. **Paste it into `essays`.** Scroll up and right-click the word `essays` itself, not any folder inside it, and choose `Paste`. A new folder called `starter-essay-simple copy` appears in the list under `essays`. If it does not, the copy went somewhere else: see the fixes below.
+6. **Rename the copy.** Right-click `starter-essay-simple copy`, the one with `copy` in its name, and choose `Rename`. Delete the whole name, type your folder name, and press `Enter`.
+7. **Check the folder list.** `essays` should now contain both `starter-essay-simple` and your new folder. Click your folder to open it. It should hold `index.md` and three sample images. `index.md` is your essay, so keep that filename.
+8. **Check the list of changes.** Click the Source Control icon in the bar on the far left, the one showing a small number. Under `Changes` you should see four files: `index.md` and the three sample images, each with your folder name in gray beside it. If any of them shows `starter-essay-simple` instead, or has a `D` beside it, stop and use the fixes below.
+9. **Save to GitHub.** Type `Start my essay` in the `Message` box above the list of changes, then click `Commit & Push`.
+10. **Confirm it worked.** Go back to your fork on github.com and open the `essays` folder. Your folder should be there. After a minute or two, your preview site shows your page at `/essays/your-folder-name/`.
+
+Nothing you change in the editor reaches your fork or your preview site until you commit. Repeat steps 8 and 9 each time you finish a round of changes.
+
+### If Something Goes Wrong
+
+If you have not committed yet, the easiest fix is to start over. In Source Control, hover over the word `Changes` and click the curved-arrow icon, `Discard All Changes`, then confirm. Everything goes back to how it was at your last commit, and you can start again from step 4.
+
+- **The copy landed inside `starter-essay-simple` or another essay's folder.** You right-clicked a folder other than `essays` when you pasted. Discard your changes, copy again, and this time right-click the word `essays` to paste.
+- **`Paste` is grayed out or missing.** You right-clicked blank space, or the copy did not take. Right-click `starter-essay-simple`, choose `Copy` again, and then right-click `essays`.
+- **`starter-essay-simple` has disappeared.** You renamed the starter instead of the copy. Discard your changes and start again from step 4.
+- **Your folder name still contains a space or the word `copy`.** Right-click it, choose `Rename`, and fix it.
+- **You already committed a mistake.** Fix it in the editor so the folders look right again, then commit again. Your pull request only shows how things end up, not every step along the way. If you are not sure how to put things back, ask your instructor before you go further.
+
+## Make the Page Yours
+
+Your copy is still the starter, with its sample pictures and placeholder text. The first round of work replaces the top of the page: your title, your name, a category, and one image of your topic. Leave the rest of the placeholder text for now.
+
+### Find a Header Image
+
+Your header image stretches across the top of your page, and it stands for your essay everywhere else on the site: the directory, the map, and the homepage. Pick one picture of your topic:
+
+- **A photo you take yourself.** Hold your phone sideways, so the picture is wider than it is tall, and get the whole building or place in the frame.
+- **A historical photo** from the [New Mexico Digital Archive](https://econtent.unm.edu/). Search for your topic, open the image, and download the largest size offered.
+
+Then get the file ready:
+
+- It must be a `.jpg` or `.png` file. Browsers cannot show `.heic`, the format many iPhones use. If your file ends in `.heic`, open it in Preview on a Mac and choose `File` > `Export`, with `JPEG` as the format.
+- Rename it in lowercase with hyphens, keeping the extension: `mesa-vista-hall-today.jpg`.
+- Write down where it came from. For your own photo, that is `Photograph by Your Name, October 2026.` For an archive image, it is the collection name and the item's title or number.
+
+### Change the Top of `index.md`
+
+1. **Upload your image.** In the web editor, drag the file from your computer onto your folder in the file list, or right-click your folder and choose `Upload...`. The image should appear inside your folder, next to `index.md`.
+2. **Open your essay.** Click `index.md` in your folder. The lines between the two `---` lines at the top are the metadata. The starter marks the five lines to change now.
+3. **Change the five lines.** Replace only the text after each colon:
+   - `title:` your topic, such as `Mesa Vista Hall`
+   - `author:` your name
+   - `category:` one from the [list of categories](#categories), typed exactly
+   - `header-image:` your image's filename, exactly as it appears in the file list
+   - `header-caption:` where your image came from
+4. **Commit.** Open Source Control. The changes should be your image and `index.md`. Type a message such as `Add my header image` and click `Commit & Push`.
+5. **Check your preview.** Wait a minute or two, then open `https://YOUR-USERNAME.github.io/campus-history/essays/your-folder-name/` and reload the page. Your image should fill the top of the page, with your title over it and your category just above the title.
+
+That is a working page of your own. Below the header, it still shows the starter's placeholder text and sample images until you replace them.
+
+The metadata is easy to break. Keep these rules:
+
+- Do not change anything to the left of a colon, and leave one space after each colon.
+- Do not type another colon or a `#` in these lines. Use a comma or a dash instead: `Mesa Vista Hall, the 400-Man Dorm`.
+- Do not delete either `---` line.
+
+If your page loads but its header image, title, and category have disappeared, one of these rules is broken. Look over the lines at the top of `index.md`, fix the one that breaks a rule, and commit again.
+
+If your page has not changed at all after five minutes, open your fork on github.com and look beside your latest commit. A red ✗, instead of a green check mark, means the site failed to build. Undo your last change, commit again, and ask your instructor if it still fails.
 
 ## Customize the Metadata
 
 Every essay begins with metadata between two lines of three hyphens. The directory, homepage cards, and page header use this metadata, so fill it out carefully.
 
+The starters include every line an essay needs, with comments marking which ones to change first. A comment starts with `#` and never appears on the site; you can delete the comments once the lines are filled in. Filled in, the metadata looks like this:
+
 ```markdown
 ---
 title: Mesa Vista Hall
 author: Your Name
-layout: essay
-date: 2026-11-12
-header-title: Mesa Vista Hall
 category: Dormitory
-popup-teaser: A one-sentence teaser for the map or homepage.
-card-description: A two-sentence description that helps readers decide to open your essay.
-header-image: example.jpg
-header-caption: A short source note for the header image.
+header-image: mesa-vista-hall-today.jpg
+header-caption: Photograph by Your Name, October 2026.
+card-description: Two sentences that summarize the story your essay tells and why it matters.
 start: 1950
+layout: essay
 ---
 ```
 
-When you copy a starter essay, replace the starter metadata with your own information. Leave `layout: essay` as it is. The other fields:
+What each line does:
 
-- `title` names your essay in the directory, the essay lists, and the browser tab.
-- `author` is your name as it should appear on the page.
-- `header-title` is the large title over your header image. It can match `title`, or say something more.
-- `category` sorts your essay in the directory. The starter's category is `Starter Essay`, which keeps a page out of the directory and the arrows between essays, so change it to one from the list below.
-- `popup-teaser` is one sentence shown on the map and the homepage.
-- `card-description` is the two sentences on your essay's card in the directory.
-- `header-image` is the filename of the large image at the top of your page, such as `example.jpg`. The same image also stands for your essay in the directory, on the map, and on the homepage. If you want a different picture there, add a `card-image:` line with that image's filename.
-- `header-caption` is the source note under the header image. Plain text only: links do not work here.
+- `title` names your essay over the header image, in the directory, in the essay lists, and in the browser tab.
+- `author` is your name.
+- `category` sorts your essay in the directory, and appears just above your title. The starter's category is `Starter Essay`, which keeps a page out of the directory and the arrows between essays, so change it to one from the [list below](#categories).
+- `header-image` is the filename of the large image at the top of your page, such as `mesa-vista-hall-today.jpg`. The same image also stands for your essay in the directory, on the map, and on the homepage.
+- `header-caption` says where the header image came from. Plain text only: links do not work here.
+- `card-description` is the two sentences on your essay's card in the directory and on the homepage.
 - `start` is the year your story begins. The map shows it next to your title.
+- `layout` tells the site to build an essay page. Leave it as `essay`.
+
+A few optional lines, all shown in `starter-essay-advanced`:
+
+- `header-title` puts a different title over the header image, if it should not match `title`.
+- `header-subtitle` adds a short phrase under the title over the header image.
+- `popup-teaser` is a single sentence for the map and homepage, used there instead of `card-description`.
+- `card-image` is the filename of a different picture for your essay's card in the directory, on the map, and on the homepage.
 
 Your essay appears on the campus map once an outline of its location is added to `assets/kml/` under your folder name, such as `assets/kml/mesa-vista-hall.kml`. Leave that file to your instructor unless you are told otherwise.
 
-Use one of these preferred categories when possible:
+### Categories
+
+Use one of these categories, typed exactly as shown. An essay with any other category does not appear in the directory, so if none fits, ask your instructor.
 
 - `Academic Building`
 - `Administration`
@@ -147,7 +204,7 @@ The current Campus History directory is generated from essay metadata. You do no
 
 Your images go in your essay folder, right next to `index.md`. The starter essay came with three sample images there; delete them once your own images have replaced them.
 
-To add images on GitHub, open your essay folder, choose `Add file` > `Upload files`, and click `Commit changes`. In the web editor, you can drag images from your computer onto your essay folder instead, then commit them like any other change.
+Add them the same way as your header image: in the web editor, drag them onto your essay folder or right-click the folder and choose `Upload...`, then commit. You can also upload on github.com: open your essay folder, choose `Add file` > `Upload files`, and click `Commit changes`. If you do, close the web editor first and reopen it afterward, so it picks up the new files.
 
 Name each file in lowercase, with hyphens instead of spaces, and keep its extension: `mvh-construction-1950.jpg`, not `MVH Construction (1).JPG`. Rename files on your computer before you upload them, because renaming one later means fixing every place your essay mentions it.
 

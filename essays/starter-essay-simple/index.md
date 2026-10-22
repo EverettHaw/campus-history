@@ -1,15 +1,17 @@
 ---
-title: Starter Essay Simple
+# Change these five lines as soon as you copy this starter.
+title: Your Essay Title
 author: Your Name
-layout: essay
-date: 2026-11-12
-header-title: Your Campus Topic
-category: Starter Essay
-popup-teaser: Replace this with one clear sentence that makes readers want to know more.
+category: Starter Essay                  # change to a category from the student guide
+header-image: sample-archive-photo.jpg   # the filename of your own image
+header-caption: Replace with where your header image came from. Plain text only, no links.
+
+# Fill these in later, once your research is under way.
 card-description: Replace this with two sentences that summarize the story your essay tells and why it matters.
-header-image: sample-archive-photo.jpg
-header-caption: Replace with a short source note for the header image. Plain text only here, no links.
-start: 1950
+start:                                   # the year your story begins, shown on the map
+
+# Leave this line as it is.
+layout: essay
 ---
 
 This first paragraph should give readers a quick way into your topic. Start with a scene, a question, a surprising fact, or a problem your essay will explain. You do not need to summarize everything here. Help the reader understand why this campus place, person, organization, object, or event deserves attention.
