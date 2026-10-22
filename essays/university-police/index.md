@@ -4,10 +4,10 @@ author: Luke Betzner
 layout: essay
 date: 2025-04-24
 card-description: This overview is a bandaid holding together a sparse, truncated, and incomplete history of UNMPD. Who will take on the rewarding challenge of adding to it?
-card-image: /essays/university-police/images/1970-UNM-vs-BYU-Game.jpg
+card-image: /essays/university-police/images/1970-unm-vs-byu-game.jpg
 popup-teaser: Do you like to find and fill archival gaps?
 header-title: University Police
-header-image: images/1970-UNM-vs-BYU-Game.jpg
+header-image: images/1970-unm-vs-byu-game.jpg
 header-position: 0px
 category: Campus Services
 ---

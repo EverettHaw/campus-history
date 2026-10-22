@@ -16,7 +16,7 @@ category: Dormitory
 
 Marron Hall existed as a space long before the building came to be known as Marron Hall. What is now known as Marron Hall came to existence in 1921, when the original South Hall was built. South Hall was built as an addition to the original Hokona Hall. At the time the population of UNM was booming and female students needed a place to board at on campus, before that time students could stay at one of the few dorm rooms on campus. But even fefore the dorms were built it was thought that female students could board with Albuquerque families. The rush of students was so much that by 1931 an addition had to be made to the dorm. It is this additional part that is now a part of Marron Hall. It is that same year that Frances Halloran Marron, Marron Hall's namesake, was appointed to the UNM Board of Regents.
 
-{% include images/figure.html class="img-center" width="100%" caption="Marron Hall circa late 90's-early 2000's" image-path="images/MarronHall.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="Marron Hall circa late 90's-early 2000's" image-path="images/marron-hall.png" %}
 
 {% include images/figure.html class="img-center" width="100%" caption="The original plans to the women's dorm. What would later become Marron Hall is the wing of the building labeled old addition." image-path="images/oldhokonahall.jpg" %}
 
@@ -45,7 +45,7 @@ President Popejoy ordered the conversion of Old Hokona Hall to be renovated in 1
 class="img-center"
 width="100%"
 caption="Looking at Marron Hall overhead you can see where the original building was attached to the renovation."
-image-path="images/Overheadmarronhall.jpg"
+image-path="images/overheadmarronhall.jpg"
 %}
 
 Marron Hall exists as both faculty offices and as a small base to student publications. Student publications, now the Daily Lobo, was experiencing a large growth in the 70’s. In 1977 Dick Pfaff, the supervisor of student publications requested more rooms in Marron Hall to house the growing program, this was documented by letters in the Student Publications archive. At the time the Hall was home to Anthropology and the Women’s Studies department. With the additional rooms allocated to the student publications Marron Hall exists as it does today.

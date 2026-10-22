@@ -33,12 +33,12 @@ Inside the building is a three-story open atrium that functions as a student com
 
 Before Dane Smith Hall was built, the area was home to a small residential neighborhood occupied by several UNM professors and faculty members. The neighborhood represented an earlier stage in the university’s development, when the campus was smaller and more closely connected to surrounding residential areas.
 
- {% include images/figure.html class="img-center" width="100%" caption="Birds-eye view of the current layout of Dane Smith Hall on top of the original neighborhood that was replaced for the facility." image-path="images/DSHLayout.jpg" %}
+ {% include images/figure.html class="img-center" width="100%" caption="Birds-eye view of the current layout of Dane Smith Hall on top of the original neighborhood that was replaced for the facility." image-path="images/dsh-layout.jpg" %}
 
 
 Dane Farnsworth Smith, the building’s namesake, lived in one of the homes on Roma Avenue with his wife. Several other professors from this neighborhood later had campus buildings named after them, including Coach Johnson (Johnson Gym), Professor Clark (Clark Hall), and Stuart Northrop (Northrop Hall). The removal of the neighborhood to make way for Dane Smith Hall symbolizes the transformation of UNM throughout the twentieth century from a relatively small regional institution into a large modern university.
 
-{% include images/figure.html class="img-center" width="100%" caption="Professor Dane Smith's house on Roma Ave. It was one of many houses that were demolished and replaced with Dane Smith Hall" image-path="images/DSHHouse.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Professor Dane Smith's house on Roma Ave. It was one of many houses that were demolished and replaced with Dane Smith Hall" image-path="images/dsh-house.jpg" %}
 
 
 
@@ -50,7 +50,7 @@ This change also reflects a broader pattern discussed in *Miracle on the Mesa*: 
 
 Plans for Dane Smith Hall began in 1996, when the UNM Board of Regents voted to construct a new classroom building to meet increasing enrollment demands. Construction was delayed several times because of disagreements over costs and the relocation of residents living on the land where the building would eventually stand. Construction officially began on March 1, 1997, and the building opened for use in the fall semester of 1998.
 
-{% assign images = "images/DSHConstruction.jpg, images/DSHConstruction2.jpg" | split: ', ' %}
+{% assign images = "images/dsh-construction.jpg, images/dsh-construction2.jpg" | split: ', ' %}
 {% include images/carousel.html images=images %}
 
 The completion of Dane Smith Hall also reshaped the physical landscape of campus. Roma Avenue, which had previously extended through the area, was removed and replaced with the roundabout at the end of Yale Boulevard. This redesign reflected the goals of the new campus Master Plan, which attempted to reduce traffic through the center of campus and create a more unified university environment.

@@ -5,8 +5,8 @@ date: 2019-05-09
 layout: essay
 popup-teaser: This building looks like it sits over the Duck Pond because before 1975, this space was occupied by Yatoka Hall.
 card-description: Yatoka Hall was built to be a mens dorm in 1928. Later, it would be used for classrooms before being demolished to make room for the Duck Pond.
-card-image: /essays/yatoka-hall/images/yatoka-hall-1928.JPG
-header-image: images/yatoka-hall-1928.JPG
+card-image: /essays/yatoka-hall/images/yatoka-hall-1928.jpg
+header-image: images/yatoka-hall-1928.jpg
 type: dorm
 start: 1928 
 header-title: Yatoka Hall
@@ -16,14 +16,14 @@ category: Dormitory
 Yatoka Hall has a very interesting history as part of the UNM campus, mainly because very few people remember that it existed. The space that once belonged to Yatoka Hall is now significantly overshadowed by this space's current use, the [Duck Pond](../duck-pond/). Yatoka Hall served various purposes throughout its years of operation, but ultimately, UNM decided that a nature site would be more suitable for this location. A brief look at Yatoka Hall's history will explain why this decision was easy to make and why Yatoka Hall is almost forgotten.
 
 ## Early Days
-{% include images/figure.html class="img-center" width="100%" caption="Yatoka Hall-1928. Post construction with a circular, dirt driveway." image-path="images/yatoka-hall-1928.JPG" %}
+{% include images/figure.html class="img-center" width="100%" caption="Yatoka Hall-1928. Post construction with a circular, dirt driveway." image-path="images/yatoka-hall-1928.jpg" %}
 
 In the very early days of the University of New Mexico, just one dorm hall for each gender was enough to house all of its students. In 1927, the administration decided to build an additional men's dorms since their population was growing. So, a new dorm hall was to be build in the Pueblo Revival style by contractor "Edward Lembke and Son" for $12,852.50. 
 
 When construction was finished in 1928, the dorm hall was not given a name as it was only referred to as the "Men's Dormitory." The Men's Dormitory was built on the Northeast part of campus and at this time and it stood by itself compared to the central part of campus in the southwest corner of the campus area. Despite it's isolation, the dorm hall was close to the dining hall and playing fields, making it a very popular dorm hall for male athletes. The Men's Dormitory would remain nameless for years until more men's dorms were built, thus the name "Yatoka Hall" was given to this building. Yatoka is a Kiowa word which vaguely translates to "Thunderbird"
 
 ## Additional Uses
-{% include images/figure.html class="img-center" width="100%" caption="Yatoka Hall-1950's. This more modern picture of Yatoka Hall shows how it's been renovated over time." image-path="images/yatoka-hall-1950.JPG" %}
+{% include images/figure.html class="img-center" width="100%" caption="Yatoka Hall-1950's. This more modern picture of Yatoka Hall shows how it's been renovated over time." image-path="images/yatoka-hall-1950.jpg" %}
 
 After years as a men's dorm hall, Yatoka Hall would no longer serve as a dorm hall since even more dorms were built by 1946. By this same year, future UNM President, Tom Popejoy, recommended to the rest of the administration that the dorms should be converted into classrooms for the following years. Since then, the building served as classrooms for the College of Business Administration, psychology, art studios, and even a coffee shop known as Mrs. Blum's Coffee Shop. As the years went on, Scholes Hall, Mitchell Hall, and Zimmerman Library would surround the area around Yatoka Hall.
 
@@ -35,7 +35,7 @@ While Yatoka Hall seemed to serve a variety of purposes in it's time at UNM, the
 ## Responses
 The addition of the Duck Pond to replace this area created a standout location on the North end of campus, quite possibly the most iconic location on campus. In 2013, Devon Stevens wrote a brief article in the Daily Lobo about the Duck Pond and in it, they said, 'When Yatoka was demolished, who can say that it wasn't and improvement? The Duck Pond is a far better feature...' and Stevens continues, 'There may have been people who had good memories of the place, but they're all regulated to the ghostly past of a building most don't even remember.' Sure, this is a harsh statement against Yatoka Hall, but there is truth to it. Yatoka Hall was a poorly maintained building designed for extra storage. When that storage was distributed to other buildings, it serves little to no purpose. By contrast, the Duck Pond is a very popular resting area for students and visitors. This space may be more popular and valuable with the Duck Pond, Yatoka Hall was one of the first buildings on UNM, and that piece of history deserves its own space in UNM Campus Histories.
 
-{% assign images = "images/yatoka-repair.JPG, images/yatoka-classes.JPG, images/yatoka-hall-map-1932.png, images/yatoka-area.JPG" | split: ', ' %}
+{% assign images = "images/yatoka-repair.jpg, images/yatoka-classes.jpg, images/yatoka-hall-map-1932.png, images/yatoka-area.jpg" | split: ', ' %}
 {% include images/carousel.html images=images id="carousel-1" %}
 
 

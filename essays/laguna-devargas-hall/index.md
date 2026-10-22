@@ -5,8 +5,8 @@ layout: essay
 date: 2015-04-14
 popup-teaser: Laguna DeVargas Hall (LDV) is one of the most distinctive and more classical residence halls at UNM.
 card-description: Laguna DeVargas Hall (LDV) is one of the most distinctive and more classical residence halls at UNM.
-card-image: /essays/laguna-devargas-hall/images/LagunaDeVargas.jpg
-header-image: images/LagunaDeVargas.jpg
+card-image: /essays/laguna-devargas-hall/images/laguna-de-vargas.jpg
+header-image: images/laguna-de-vargas.jpg
 header-title: Laguna DeVargas Hall
 header-position: 0px
 category: Dormitory
@@ -17,8 +17,8 @@ Laguna DeVargas Hall (LDV) is one of the most distinctive and more classical res
 {% include images/figure.html class="img-center" width="100%" caption="Laguna & DeVargas Halls. [Source](https://issuu.com/unmreslife/docs/housing_recruitment_brochure_2022-23_rev7_for_issu)" image-path="images/8c3ead16234e5425de1ca6fe0e829c9d.jpeg" %}
 
 {% include images/juxtapose.html
-image1="images/Picsart_25-05-18_17-15-19-658.jpg"
-image2="images/Picsart_25-05-18_17-12-31-306.jpg"
+image1="images/picsart_25-05-18_17-15-19-658.jpg"
+image2="images/picsart_25-05-18_17-12-31-306.jpg"
 caption="Here can be seen two young gentlmen on the left walking across the DeVargas Courtyard in 1971. On the right, a current picture of the Hall, with the fountain now removed."
 %}
 
@@ -33,7 +33,7 @@ In case you need an area to kick back with friends or want to lounge out in peac
 
 {% include scrollybox/bg.html
   height="220"
-  image-url="images/Picsart_25-05-13_20-40-23-057.jpg"
+  image-url="images/picsart_25-05-13_20-40-23-057.jpg"
   pre-box-space = "100vh"
   font-size = "250%"
   line-height = "150%"
@@ -101,9 +101,9 @@ unique design helps give UNM a special place in the modern architect world.
 
 
 {% assign images = 
-"images/Picsart_25-05-18_18-52-00-428.jpg,
-images/Picsart_25-05-18_18-53-38-381.jpg,
-images/Picsart_25-05-18_18-53-07-805.jpg" | split: ','
+"images/picsart_25-05-18_18-52-00-428.jpg,
+images/picsart_25-05-18_18-53-38-381.jpg,
+images/picsart_25-05-18_18-53-07-805.jpg" | split: ','
 %}
 
 {% include images/carousel.html
