@@ -9,17 +9,32 @@ permalink: /student-guide/
 
 This page explains how to turn a course assignment into a working page on the Campus History site. Your course syllabus explains the assignment, grading, due dates, and reflection requirements. This guide only covers the site workflow: making a page, adding images, checking metadata, and submitting your work for publication.
 
+<div class="alert alert-warning" markdown="1">
+
+#### Due Tuesday: Your Own Working Copy of the Site
+{: .alert-heading}
+
+By Tuesday, do these five things. Each step links to its section of this guide.
+
+1. **Make your own copy of the site.** [Fork the repository](#fork-the-repository).
+2. **Get your copy working as a website.** [Turn on GitHub Pages](#preview-your-work) and open your preview site.
+3. **Duplicate the starter folder.** [Copy `starter-essay-simple`](#copy-the-starter-folder) and rename the copy with [your folder name](#choose-a-folder-name). This becomes your essay folder.
+4. **Add an image of your building.** [Find a picture of your building](#find-a-header-image) and upload it into your essay folder.
+5. **Point the metadata at your image.** In the metadata at the top of your `index.md` (sometimes called the YAML header), set `header-image:` to your image's exact filename and fill in the other marked lines, including a `category:` from the [list of categories](#categories). See [Change the Top of `index.md`](#change-the-top-of-indexmd).
+
+You are done when your essay shows up on your preview site's Essays page, `https://YOUR-USERNAME.github.io/campus-history/directory/`, with your building's picture on its card. Stop there. The rest of this guide covers writing and submitting the essay, which comes later.
+
+</div>
+
 ## Before You Start
 
 - Create or sign in to a [GitHub](https://github.com/) account.
 - Choose a topic according to your course assignment.
 - Check with your instructor before duplicating a topic already claimed by another student.
 - Open the [Campus History repository](https://github.com/amaranth-unm/campus-history).
-- Look through `essays/starter-essay-simple/index.md`. You will copy it to start your own page.
 
 ## Fork the Repository
-
-In GitHub, a fork is your own copy of the Campus History repository. You can edit your fork without changing the public site until you are ready.
+In GitHub, a "fork" (like a fork in the road) is your own copy of the Campus History repository. You can edit your own copy without changing the "official" site until you are ready.
 
 1. Go to the [Campus History repository](https://github.com/amaranth-unm/campus-history).
 2. Click `Fork` in the upper-right corner.
@@ -70,9 +85,9 @@ The folders already in `essays` show the pattern: `duck-pond`, `maxwell-museum`,
 
 ### Copy the Starter Folder
 
-Do not edit the starter folder itself. Copy it, then rename the copy. Every student starts from the same starter, so a change to it collides with everyone else's pull request.
+**Do not edit the starter folder itself.** Duplicate it, then rename the copy. 
 
-You will do this in GitHub's web editor, which runs in your browser. Use a laptop or desktop computer: the editor depends on right-clicking and does not work well on a phone or tablet. On a Mac trackpad, right-click by clicking with two fingers, or by holding `Control` while you click.
+You will do this in GitHub's web editor, which runs in your browser. Use a laptop or desktop computer: the editor depends on right-clicking and does not work well on a phone or tablet (many tablets are fine, but quite hard to use if you're not used to this sort of thing). On a Mac trackpad, right-click by clicking with two fingers, or by holding `Control` while you click.
 
 1. **Open your fork.** Go to `https://github.com/YOUR-USERNAME/campus-history`. Check that the address shows your username, not `amaranth-unm`. If it shows `amaranth-unm`, you are in the main repository, and you cannot save changes there.
 2. **Open the editor.** Press `.` (the period key). If nothing happens, click a blank part of the page and press `.` again, or change `github.com` to `github.dev` in the address bar and press `Enter`. Sign in if GitHub asks. The editor opens with a list of files down the left side.
@@ -139,6 +154,21 @@ If your page loads but its header image, title, and category have disappeared, o
 
 If your page has not changed at all after five minutes, open your fork on github.com and look beside your latest commit. A red ✗, instead of a green check mark, means the site failed to build. Undo your last change, commit again, and ask your instructor if it still fails.
 
+<div class="alert alert-warning" markdown="1">
+
+#### Check Everything Works and Stop
+{: .alert-heading}
+
+Open your preview site's Essays page, `https://YOUR-USERNAME.github.io/campus-history/directory/`. Your essay should be listed under its category, with your building's picture on its card. If it is, you have finished the work due Tuesday. Stop here.
+
+- **Your essay is not listed.** Your `category:` line is still `Starter Essay`, or it does not match one of the [categories](#categories) exactly.
+- **Your essay is listed, but its picture is missing, broken, or still the starter's.** Your `header-image:` line does not match your image's filename exactly. Compare the two letter by letter, including capitalization and the extension, such as `.jpg`.
+
+</div>
+
+
+
+
 ## Customize the Metadata
 
 Every essay begins with metadata between two lines of three hyphens. The directory, homepage cards, and page header use this metadata, so fill it out carefully.
@@ -176,7 +206,7 @@ A few optional lines, all shown in `starter-essay-advanced`:
 - `popup-teaser` is a single sentence for the map and homepage, used there instead of `card-description`.
 - `card-image` is the filename of a different picture for your essay's card in the directory, on the map, and on the homepage.
 
-Your essay appears on the campus map once an outline of its location is added to `assets/kml/` under your folder name, such as `assets/kml/mesa-vista-hall.kml`. Leave that file to your instructor unless you are told otherwise.
+Your essay appears on the campus map once an outline of its location is added to `assets/kml/` under your folder name, such as `assets/kml/mesa-vista-hall.kml`. We will get to this much later.
 
 ### Categories
 
@@ -197,7 +227,7 @@ Use one of these categories, typed exactly as shown. An essay with any other cat
 - `Public Art`
 - `Student Resource`
 
-The current Campus History directory is generated from essay metadata. You do not need to update a separate spreadsheet for the public directory unless your instructor gives you a separate course-specific sheet.
+The current Campus History directory is generated from essay metadata. 
 
 
 ## Add Images
@@ -224,7 +254,6 @@ Save images **at least 768 pixels wide**, and closer to **1500 pixels** if the a
 
 Before/after sliders are stricter. Both images should be at least 768 pixels wide **and roughly the same shape**, because the slider is sized from the first image and crops the second one to match. Two landscape photographs work well; a tall document paired with a wide photograph will get its top and bottom cut off.
 
-If the only scan you can find is small, use it and say so in your pull request rather than stretching it — a note about a low-resolution source is more useful than a blurry image.
 
 Use the Campus History image include instead of regular Markdown image syntax:
 
