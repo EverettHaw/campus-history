@@ -64,7 +64,7 @@ Click a building to read its essay.
   {% assign folder = page.url | split: '/' | slice: 2, 1 | first %}
   {% assign kml_path = '/assets/kml/' | append: folder | append: '.kml' %}
   {% if kml_files contains kml_path %}
-  <div class="map-point" data-name="{{ page.title | escape }}" data-popup-teaser="{{ page.popup-teaser | escape }}"
+  <div class="map-point" data-name="{{ page.title | escape }}" data-popup-teaser="{{ page.popup-teaser | default: page.card-description | escape }}"
     data-kml-path="{{ site.baseurl }}/assets/kml/{{ folder }}.kml"
     data-card-image="{% include images/card-image.html essay=page %}" data-start="{{ page.start | escape }}"
     data-url="{{ site.baseurl }}{{ page.url }}" data-folder="{{ folder | downcase | replace: ' ', '-' }}">
