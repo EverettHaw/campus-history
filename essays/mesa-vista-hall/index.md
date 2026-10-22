@@ -5,7 +5,6 @@ layout: essay
 date: 2015-04-14
 popup-teaser: From men's dorm to bastion of the humanities
 card-description: From men's dorm to bastion of the humanities
-card-image: /essays/mesa-vista-hall/images/mvh-construction.jpg
 type: dorm
 start: 1950
 end: 1975
@@ -13,7 +12,7 @@ type2: offices
 start2: 1975
 end2:
 header-title: Mesa Vista Hall
-header-image: images/mvh-construction.jpg
+header-image: mvh-construction.jpg
 header-position: 10px
 header-caption: "The Construction of Mesa Vista Hall as a 400-person men's dorm"
 category: Dormitory
@@ -24,7 +23,7 @@ published: false
 
 This essay is mostly dummy text. The point is to visually illustrate various features that can be used on site essay pages. The [advanced starter essay](../starter-essay-advanced/) has a working example of every component, with code you can copy and paste into your essays. Or you can just edit this one, adding, rearranging, and deleting as necessary.
 
-{% include images/figure.html class="img-right" width="48%" caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-history-stays.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="mvh-history-stays.jpg" %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus. Praesent libero mi, pharetra vel neque sit amet, elementum tempor purus.[^note1]
 
@@ -37,8 +36,8 @@ Aliquam in sapien mauris. Aliquam erat volutpat. Nunc congue ultrices lacus, a e
 Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan. Duis quis aliquam nulla. Aenean scelerisque lacus vel pretium viverra. Sed id faucibus turpis. Etiam nec pellentesque lacus.
 
 {% include images/juxtapose.html
-image1="images/mvh-tv-room.jpg"
-image2="images/mvh-hist-common-room.jpg"
+image1="mvh-tv-room.jpg"
+image2="mvh-hist-common-room.jpg"
 caption="From the TV room to the Chair room (actually, the History Department Common Room). With a less good view of the mountains."
 %}
 
@@ -52,7 +51,7 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
 {% include scrollybox/bg.html
   height="220vh"
   position="top"
-  image-url="images/mvh-women-supervision.jpg"
+  image-url="mvh-women-supervision.jpg"
   pre-box-space = "100vh"
   font-size = "250%"
   line-height = "150%"
@@ -75,7 +74,7 @@ Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc n
 <!-- this is an unclosed div that needs to be closed with bg-multi-long-close-->
 {% include scrollybox/bg-multi-long.html
   bg-id="bg1"
-  image-url="images/mvh-floorplan.jpg"
+  image-url="mvh-floorplan.jpg"
   pre-box-space="0"
   font-size = "150%"
   line-height = "100%"
@@ -89,7 +88,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec ante ligu
 ### IMAGE SWITCH HERE 
 
 {% include scrollybox/bg-switch.html
-  image-url="images/mvh-tv-room.jpg"
+  image-url="mvh-tv-room.jpg"
   switch-id="switch1"
   bg-id="bg1"
 %}
@@ -107,7 +106,7 @@ This is the end of the story, and you should see the text box scroll out of view
 
 
 ## Duis vehicula erat et diam
-{% include images/figure.html class="img-right" width="60%" caption="Duis in sagittis arcu. Donec dictum aliquam congue. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-floorplan.jpg" %}
+{% include images/figure.html class="img-right" width="60%" caption="Duis in sagittis arcu. Donec dictum aliquam congue. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="mvh-floorplan.jpg" %}
 
 Duis ut dui dolor. Integer eu lectus at tellus accumsan euismod eget a ligula. Morbi venenatis, elit eu varius fermentum, ligula est dictum massa, sit amet ullamcorper augue nisl ut nunc. Integer placerat vitae metus vitae faucibus. Pellentesque consectetur augue ac volutpat dignissim. Sed laoreet congue ligula sit amet vestibulum. Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque. Quisque in ipsum eget dui mattis efficitur sed in diam. In odio sem, tincidunt non venenatis a, consequat sed ligula.
 
@@ -119,9 +118,9 @@ Nunc congue ultrices lacus, a efficitur massa pulvinar at. Sed luctus orci sed s
 
 
 {% assign images = 
-"images/mvh-menu.jpg,
-images/mvh-history-stays.jpg,
-images/mvh-room-cost.jpg" | split: ','
+"mvh-menu.jpg,
+mvh-history-stays.jpg,
+mvh-room-cost.jpg" | split: ','
 %}
 
 {% include images/carousel.html

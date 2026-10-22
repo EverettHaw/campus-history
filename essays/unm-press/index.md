@@ -5,8 +5,7 @@ layout: essay
 date: 2025-05-16
 popup-teaser: The long and storied history of one of UNM's lesser-known institutions and the building it currently resides in
 card-description: The concurrent stories of the development of the University of New Mexico Press and the changes its current home at 1717 Roma, once a sorority house, went through.
-header-image: images/PXL_20250501_220349996.jpg
-card-image: /essays/unm-press/images/PXL_20250501_220349996.jpg
+header-image: pxl_20250501_220349996.jpg
 header-title: UNM Press
 header-position:
 type: offices
@@ -22,7 +21,7 @@ The Press is New Mexico's sole major book publisher and handles various regional
   class="img-center"
   width="60%"
   caption=""
-image-path="images/ULPhotoImag_3418_medium.jpg"
+image-path="ul-photo-imag_3418_medium.jpg"
 %}
 >1717 Roma Avenue NE in 1949, decorated as part of a sorority house decor competition.[^1949]
 
@@ -30,7 +29,7 @@ image-path="images/ULPhotoImag_3418_medium.jpg"
   class="img-center"
   width="100%"
   caption=""
-image-path="images/PXL_20250501_220133669.jpg"
+image-path="pxl_20250501_220133669.jpg"
 %}
 >The University of New Mexico Press building today.[^Me]
 
@@ -42,7 +41,7 @@ Even though it would not be until the fall of 2009 that the Press would come to 
 class="img-center"
 width="50%"
 caption=""
-image-path="images/Screenshot_20250521_004700.jpg"
+image-path="screenshot_20250521_004700.jpg"
 %}
 >The Palace of the Governors in two stages of remodeling in 1913, the year El Palacio Press, the progenitor to the UNM Press, began to release its eponymous magazine.[^Repair][^Restoration]
 
@@ -58,7 +57,7 @@ After that, one of the buildings was reappropriated as a music studio for a shor
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-16_025216.jpg"
+image-path="screenshot_2025-05-16_025216.jpg"
 %}
 >A map of the University of New Mexico campus in December 1928, showing the eventual home of the Press in its original state.[^McColeman]
 
@@ -66,7 +65,7 @@ image-path="images/Screenshot_2025-05-16_025216.jpg"
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-01_180119.jpg"
+image-path="screenshot_2025-05-01_180119.jpg"
 %}
 >The campus in December 1935. By this point, the two Korber/Press buildings had been conjoined and linked to the Carlisle Gym.[^ConjoinedtoCarlisle]
 
@@ -74,7 +73,7 @@ image-path="images/Screenshot_2025-05-01_180119.jpg"
   class="img-center"
   width="100%"
   caption=""
-image-path="images/Screenshot_20250516_152855.jpg" %}
+image-path="screenshot_20250516_152855.jpg" %}
 >An architectural drawing of one of the original Korber Wireless Station buildings[^McColeman] compared to the site today, now housing UNM Facilities Management.[^Me] If one looks closely, they can see lines in the stucco to the right of the door that appear to match with where a window originally was, complete with it being taller than the door, and another seam level to the ground that seems to align with the originally raised entrance walkway. Accordingly, this is likely to be the same side of the building depicted in the drawing, particularly because there is no other doorway raised above the ground in this manner on any other side.
 
 ### Early Press Operations
@@ -87,22 +86,22 @@ Between 1933 and 1943, the Press published 56 total books. Book publishing wasn'
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_20250516_162707.jpg"
+image-path="screenshot_20250516_162707.jpg"
 %}
 >An overhead view of campus from 1943, in which both the Press offices (#33) and 1717 Roma (directly north of #30) can be seen.[^Overhead]
 
 ### The Future Location of the Press
 The agreement for the construction of the Alpha Chi Omega sorority house was made on April 19th, 1930, between the "ALPHA CHI OMEGA BUILDING ASSOCIATION OF NEW MEXICO" and architect Beula Fleming.[^Fleming] The house was finished sometime in late December of that year or in early January 1931.[^Vertical] It was outfitted with a three-tier fireplace, a grand piano, and other amenities. The initial sketches for the building differed from the final layout; the living room originally protruded out more from the rest of the house, with a fireplace nestled in its bottom left corner instead of against the right wall, and a conservatory room adjacent to it was dropped entirely. The dining room and kitchen were also made flush with the reoriented living room. Additionally, the original plan called for a porch on the exterior facing west; this did not come to fruition, with one instead being built along the walkway to the entryway door.
 
-{% assign images = "images/ClearerBeula.jpg, images/Beula_Fleming_stuff_1.jpg, images/CamScanner_04-30-2025_15.29_1.jpg" | split: ',' %}
+{% assign images = "clearer-beula.jpg, beula_fleming_stuff_1.jpg, cam-scanner_04-30-2025_15.29_1.jpg" | split: ',' %}
 
 {% include images/carousel.html images = images %}
 
 >The first image is of the initial plan for the ground floor of 1717 Roma Avenue NE. The second is of sketches of the original design of the building from the right side and front.[^Beula] The third is a picture of the structure shortly after construction was finished, which is largely identical to the current building aside from the lack of the 1950 addition and the double doors being removed; the step leading up to it does still remain, but the doors were walled off and a window was inserted where they once stood.[^Vertical] 
 
 {% include images/juxtapose.html
-image1="images/KICDocument0001.jpg"
-image2="images/PXL_20250501_220504555.jpg"
+image1="kic-document0001.jpg"
+image2="pxl_20250501_220504555.jpg"
 caption=""
 %}
 >1717 Roma in the 1930s[^Sororities], compared to how this corner of the building looks today.[^Me]
@@ -111,7 +110,7 @@ caption=""
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-16_023922.jpg"
+image-path="screenshot_2025-05-16_023922.jpg"
 %}
 >The fireplace, inside the living room.[^Mirage37]
 
@@ -124,7 +123,7 @@ That is not to say there were not any positive developments with the Press aroun
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Journalism-and-UNM-Press-building-1949.jpg"
+image-path="journalism-and-unm-press-building-1949.jpg"
 %}
 >The Journalism building in 1949.[^AHS]
 
@@ -139,7 +138,7 @@ The architect Louis G. Hesselden was brought on to design and build an addition 
 class="img-center"
 width="100%"
 caption=""
-image-path="images/PXL_20250501_160143468.jpg"
+image-path="pxl_20250501_160143468.jpg"
 %}
 >The lounge space today, which serves as the Press entrance and reception area.[^Me]
 
@@ -154,7 +153,7 @@ Under the leadership of Dickey, the Press wound up building a sizable backlog of
 class="img-center"
 width="60%"
 caption=""
-image-path="images/The_Mirage_1966_copy_1.pdf.jpg"
+image-path="the_mirage_1966_copy_1.pdf.jpg"
 %}
 >The Alpha Chi Omega Sorority House, as photographed in the 1965-1966 edition of UNM's _The Mirage_ yearbook. Holes in the arch can be seen where the Greek letters of the sorority—ΑΧΩ—once were.[^Mirage66]
 
@@ -164,7 +163,7 @@ image-path="images/The_Mirage_1966_copy_1.pdf.jpg"
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-19_224254.jpg"
+image-path="screenshot_2025-05-19_224254.jpg"
 %}
 >The new Alpha Chi Omega Sorority House, as photographed in the 1967-1968 edition of UNM's _The Mirage_ yearbook.[^Mirage68] It has since been transformed into the ROTC Education Complex.
 
@@ -190,7 +189,7 @@ But things were a little too good to be true. _The Education of Little Tree_ was
 class="img-center"
 width="75%"
 caption=""
-image-path="images/CamScanner_05-20-2025_13.30_1.jpg"
+image-path="cam-scanner_05-20-2025_13.30_1.jpg"
 %}
 >A plaque on display in the UNM Press lobby for the Sheridan Books, Inc. Platinum Book Award, commemorating the existence of over a million print copies of _The Education of Little Tree_ as of July 2005.[^Me]
 
@@ -207,7 +206,7 @@ In December 2004, demolition began on the Lomas location to build the UNM John &
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_20250516_153057.jpg"
+image-path="screenshot_20250516_153057.jpg"
 %}
 >The subpar construction of the new Press building caused cracks ranging from thin lines to crevices nearly two feet deep to form in the window frames, walls, and floors.[^McHugh]
 
@@ -225,7 +224,7 @@ Throughout its own long life, 1717 Roma has changed quite a bit, even from the o
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_20250516_150618.jpg"
+image-path="screenshot_20250516_150618.jpg"
 %}
 >All 3 floors of 1717 Roma as initially planned by Beula Fleming. Note that they have been turned upside-down to match the orientation of Hesselden's drawings and the current maps.[^Beula]
 
@@ -233,7 +232,7 @@ image-path="images/Screenshot_20250516_150618.jpg"
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_20250516_150644~3.jpg"
+image-path="screenshot_20250516_150644~3.jpg"
 %}
 >All 3 floors of 1717 Roma as drawn out by Louis G. Hesselden, reflecting the final overall design of Beula's work as well as his newly planned additions and changes.[^Hesselden]
 
@@ -241,7 +240,7 @@ image-path="images/Screenshot_20250516_150644~3.jpg"
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_20250516_150700.jpg"
+image-path="screenshot_20250516_150700.jpg"
 %}
 >Up-to-date maps of 1717 Roma taken from emergency evacuation guidelines for each floor, demonstrating many changes made to the interior.[^Evac]
 
@@ -251,7 +250,7 @@ Walls were torn down to open up many rooms, with the housemother's space having 
 class="img-center"
 width="50%"
 caption=""
-image-path="images/PXL_20250501_230832554.jpg"
+image-path="pxl_20250501_230832554.jpg"
 %}
 >The editorial, design, and production department space within the Press, based out of the former living room. The ornate beams are one of the only remnants of the original space.[^Me]
 
@@ -261,7 +260,7 @@ Perhaps where the building's history shines through most clearly is in the Ernes
 class="img-center"
 width="60%"
 caption=""
-image-path="images/Screenshot_20250516_153240.jpg"
+image-path="screenshot_20250516_153240.jpg"
 %}
 >The hallway outside the Ernest R. Earick Memorial Library and the library itself from both sides.[^Me] It houses the majority of the Press's output and also acts as a conference room for Press meetings.
 

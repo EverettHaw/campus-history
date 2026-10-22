@@ -12,7 +12,7 @@
   <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   {% if page.header-image %}
-  {%- comment -%} image-path handles header images written as images/x.jpg or /essays/x/images/x.jpg {%- endcomment -%}
+  {%- comment -%} image-path handles header images written as x.jpg or /essays/folder/x.jpg {%- endcomment -%}
   {% capture og_image %}{% include images/image-path.html image-path=page.header-image %}{% endcapture %}
   <meta property="og:image" content="{% unless og_image contains '://' %}{{ site.url }}{% endunless %}{{ og_image | uri_escape }}">
   {% endif %}

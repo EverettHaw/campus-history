@@ -5,8 +5,7 @@ layout: essay
 date: 2025-05-06
 popup-teaser: Did you know that Albuquerque's first public museum was on campus?
 card-description: The Maxwell Museum of Anthropology has been providing students and the public alike with enriching experiences since 1932.
-card-image: /essays/maxwell-museum/images/1970s-maxwell.jpg
-header-image: images/1970s-maxwell.jpg
+header-image: 1970s-maxwell.jpg
 header-title: Maxwell Museum
 header-position: 0px
 category: Museum
@@ -17,8 +16,8 @@ Tucked away on the far western edge of campus, The Maxwell Museum of Anthropolog
 In the busy and bustling ecosystem that is UNM campus, it is easy for on-the-go students, faculty, and staff to keep their heads down, focused on exactly where they need to be and when they need to be there. But, by lifting their gaze, getting off the beaten path, taking in their surroundings, and stepping through the museum's doors, they have the opportunity to be transported across campus, across the world and emerge forever changed. 
 
 {% include images/juxtapose.html
-image1="images/1970s-maxwell.jpg"
-image2="images/2025-front.jpg"
+image1="1970s-maxwell.jpg"
+image2="2025-front.jpg"
 caption="Front entrance of the Maxwell Museum in the early 1970s, and in 2025. [Source](https://nmdc.unm.edu/digital/collection/ULPhotoImag/id/2823/rec/7)"
 %}
 
@@ -27,7 +26,7 @@ caption="Front entrance of the Maxwell Museum in the early 1970s, and in 2025. [
 In 1932, the year that Amelia Earhart became the first woman to fly solo across the Atlantic, during the height of the Great Depression, and when Franklin D. Roosevelt was first elected president, the Museum of Anthropology first opened at the University of New Mexico. UNM's Anthropology department was taking off, with ethnographical and archaeological field research yielding material culture finds from across the southwest and further afield. For the researchers of the period (of whom included Frank Hibben, who, according to rumor loosely inspired the character of Indiana Jones), these items "needed" a new "home," and so the first collections and exhibition space was set up in Scholes Hall. 
 
 Nearly thirty years later, the anthropology department and museum were relocated to it's current building on the west side of campus, where it has remained ever since. Designed by renowned architect John Gaw Meem, the pueblo revival style structure was originally home to the Student Union Building (SUB).  The move brought with it renovations and expanded space, a total of 3500 square feet of exhibition space and an additional 1500 square feet designated for the storage of collections.
-{% include images/figure.html class="img-center" width="100%" caption="Portion of the 1967-68 College of Arts and Science's Annual Report which discusses the yearly output of the Maxwell Museum. [Source](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1021&context=unm_annual_reports)" image-path="images/67-68.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Portion of the 1967-68 College of Arts and Science's Annual Report which discusses the yearly output of the Maxwell Museum. [Source](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1021&context=unm_annual_reports)" image-path="67-68.jpg" %}
 
 The 60s and 70s brought incredible change to the west side of campus. The growth of the museum and its collections meant that there was a need for specialized full time staff, and in 1961, Dr. Jerry Brody became the museum's very first curator. Alongside an upward trajectory of academic research outputs, this period also saw the adoption of a formal museum guide program and the establishment of the Clark Field Archive and Library in 1968. With the museum's now enhanced space and ability for public outreach,  60,000 visitors come through the doors of the museum by the end of the 1967-68 school year. By 1973, the museum opened the associated Office of Contract Archaeology (OCA), became accredited through the American Alliance of Museums, and, thanks to major donors Dorothy and Gilbert Maxwell, received a new name: The Maxwell Museum of Anthropology.  
 
@@ -44,7 +43,7 @@ descendent communities of who's culture, lifeways, and objects the museum exhibi
 
 {% include scrollybox/bg-multi-long.html
   bg-id="bg1"
-  image-url="images/maxwell-psw.jpg"
+  image-url="maxwell-psw.jpg"
   pre-box-space="0"
   font-size = "150%"
   line-height = "100%"
@@ -56,7 +55,7 @@ descendent communities of who's culture, lifeways, and objects the museum exhibi
 
 
 {% include scrollybox/bg-switch.html
-  image-url="images/maxwell-ancestors2.jpg"
+  image-url="maxwell-ancestors2.jpg"
   switch-id="switch1"
   bg-id="bg1"
 %}
@@ -75,8 +74,8 @@ One of the first exhibitions that the newly named Maxwell Museum mounted was *Ma
 The exhibition was organized thematically and by region, interweaving foundational information about the mechanics of sound as well as how music is incorporated into culture. First, visitors were introduced to the different types of musical instruments they may encounter throughout the exhibition. Next, were instruments and music of Indigenous North Americans, which were followed by various information on scales and melodies, and then the instruments and music of the African continent. The second half of the exhibition highlighted the social function of music, then instruments and music from Asia. The exhibition concluded with a section on contact phenomena or "When Musics Meet."
 
 {% assign music_maker_images =
-"images/abqjournal-music.jpg,
-images/kidd-instruments.jpg" | split: ','
+"abqjournal-music.jpg,
+kidd-instruments.jpg" | split: ','
 %}
 
 {% assign music_maker_captions =
@@ -93,8 +92,8 @@ columns=2
 ### YER DIALEGE! Kuna Women's Art, 1978-79
 
 {% assign kuna_images =
-"images/kuna-invite1.jpg,
-images/kuna-invite2.jpg" | split: ','
+"kuna-invite1.jpg,
+kuna-invite2.jpg" | split: ','
 %}
 
 {% assign kuna_captions =
@@ -114,7 +113,7 @@ Before her tenure as the chief curator at the Maxwell Museum, Mari Lyn Salvador 
 
 [^note4]: "Throwback Thursday. Maxwell Exhibitions: Yer Dialege! Kuna Women's Art," Maxwell Museum of Anthropology, June 10, 2021, https://maxwellmuseum.unm.edu/maxwell-at-home/maxwell-history/throwback-thursday-maxwell-exhibitions-yer-dailege-kuna-women%E2%80%99s-art. 
 
-{% include scrollybox/bg.html height="230" image-url="images/abqjournal-kuna.jpg" pre-box-space = "125vh" font-size = "200%" line-height = "150%" box-content= " 'Mola-making is an important part of a woman's life, not just a leisure activity. A great deal of time is spent making molas. Women sew while visiting, traveling, listening in village meetings or sitting by themselves. Young girls are encouraged to learn to sew as early as they seem interested, which may be at age 3 or 4.' -Mari Lyn Salvador " 
+{% include scrollybox/bg.html height="230" image-url="abqjournal-kuna.jpg" pre-box-space = "125vh" font-size = "200%" line-height = "150%" box-content= " 'Mola-making is an important part of a woman's life, not just a leisure activity. A great deal of time is spent making molas. Women sew while visiting, traveling, listening in village meetings or sitting by themselves. Young girls are encouraged to learn to sew as early as they seem interested, which may be at age 3 or 4.' -Mari Lyn Salvador " 
 %}
 
 ### The Fetish Carvers of Zuni, 1991
@@ -122,7 +121,7 @@ Before her tenure as the chief curator at the Maxwell Museum, Mari Lyn Salvador 
 class="img-right"
 width="50%"
 caption="The Maxwell Foundation newsletter for early 1991, highlighting The Fetish Carvers of Zuni."
-image-path="images/maxwell-zuni.jpg"
+image-path="maxwell-zuni.jpg"
 %}
 *The Fetish Carvers of Zuni* exhibition, which opened in February of 1991, highlighted the artists of Zuni (A:Shiwi) and their iconic and beautiful sculpture work, known as fetishes. Objects of protection, fetishes are hand carved from stone, shell, and sometimes even in-organic material (like old surfboards or layers of compressed paint called Fordite). 
 
@@ -133,7 +132,7 @@ Maxwell curator Marian Rodee and Pueblo of Zuni Arts and Crafts director James O
   class="img-center"
   width="100%"
   caption="An early outline of the exhibition."
-image-path="images/zuni-exhibit.jpg"
+image-path="zuni-exhibit.jpg"
 %}
  
 ## The Future of the Museum
@@ -142,7 +141,7 @@ The Maxwell Museum has offered New Mexicans the space, expertise, and community 
   class="img-right"
   width="50%"
   caption="The Maxwell's 2022-2023 Annual Report.[Source](https://maxwellmuseum.unm.edu/news-events/newsletters-and-reports.)"
-image-path="images/maxwell-becomingus.jpg"
+image-path="maxwell-becomingus.jpg"
 %}
 The museum's age is starting to show in some cases, however, but a fresh look is on the horizon. The thirty five year old *Ancestors*, will be completely overhauled in the next several years to reflect new research, curatorial practices, and exhibition design techniques. In the meantime, the Maxwell's doors are still open, and still willing to transport you to across the state, across the country, or across the globe, right here on campus. 
 

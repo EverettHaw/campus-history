@@ -5,9 +5,8 @@ layout: essay
 date: 2019-04-10
 popup-teaser: An administration building with award-winning but highly controversial architecture
 card-description: Award-winning architecture that sparked intense philosophical debate among the administration building's intended residents
-card-image: /essays/humanities-building/images/humanities-building-old-plaza-bw.jpg
 header-title: Humanities Building
-header-image: images/humanities-building-old-plaza-bw.jpg
+header-image: humanities-building-old-plaza-bw.jpg
 type: offices
 start: 1972
 end: 2026
@@ -20,7 +19,7 @@ Chances are, when you think of heated philosophical debates, controversial archi
 class="img-center"
 width="100%"
 caption="The physical form of the Humanities Building has not changed since its original construction in 1973, but its functions and the spaces around it on campus have changed dramatically in the years since."
-image-path="images/humanities-building.jpg"
+image-path="humanities-building.jpg"
 %}
 
 ## Collaborative Design
@@ -32,8 +31,8 @@ In the initial stages of the design process, the department heads from English, 
 Together, they drafted a 50+ page document titled "The Conception of a Humanities Building" in which they list practical details about the kinds of spaces and tools they needed, but they also devoted significant space in the document to a discussion of how a humanities building should look and feel in order to complement the disciplinary goals of the departments it houses.
 
 {% assign humanities_documents_images =
-"images/humanities-building-approval-letter.jpg,
-images/humanities-building-conception-of-a-humanities-building.jpg" | split: ','
+"humanities-building-approval-letter.jpg,
+humanities-building-conception-of-a-humanities-building.jpg" | split: ','
 %}
 
 {% assign humanities_documents_captions =
@@ -75,7 +74,7 @@ UNM hired W.C. Kruger & Associates as the architectural firm for the building pr
 class="img-center"
 width="100%"
 caption="This architectural drawing from Kruger focuses attention on the proposed new building but includes none of the surrounding buildings, which significantly alters viewer perception of the building and the space it would eventually occupy on campus."
-image-path="images/humanities-building-architectural-drawing.jpg"
+image-path="humanities-building-architectural-drawing.jpg"
 %}
 
 Of course, as soon as the plans were released, they drew intense resistance. The proposed building was the opposite of everything that the departments had asked for—small windows, little natural light, tight spaces and corners, and a blocky, fortress-like appearance. The same people who originally composed "Conception of a Humanities Building" wrote letters to the architect and the UNM administration objecting to the design.
@@ -94,14 +93,14 @@ Construction on the building started in early 1973 with the excavation of Zimmer
 class="img-center"
 width="100%"
 caption="On February 7, 1973, the *Daily Lobo* covered the ongoing Humanities Building construction project that had turned what was formerly a grassy field at the center of campus into a 'muddy hole.'"
-image-path="images/humanities-building-muddy-hole.jpg"
+image-path="humanities-building-muddy-hole.jpg"
 %}
 
 {% include images/figure.html
 class="img-right"
 width="50%"
 caption="Construction of the Humanities building and the plaza happened simultaneously, making the center of campus difficult to access."
-image-path="images/humanities-building-construction-van.jpg"
+image-path="humanities-building-construction-van.jpg"
 %}
 
 The construction of the Humanities building, then, involved the simultaneous construction of what is now Smith Plaza.
@@ -110,7 +109,7 @@ The construction of the Humanities building, then, involved the simultaneous con
 class="img-center"
 width="100%"
 caption="The earliest version of Smith Plaza was constructed as a large, flat expanse of brick. As the picture shows, there were more trees but less green space where students can sit, like the current version of the plaza offers today."
-image-path="images/humanities-building-construction-full.jpg"
+image-path="humanities-building-construction-full.jpg"
 %}
 
 When the building was finished in 1974, it overlooked a transformed campus space. Where there had once been only a field, now there was a large, open plaza, and many new departments in the humanities had a new permanent home. Though the building did not match their hopes or expectations, it did position them in an important part of campus, and the new plaza made the building more accessible, which would make it easier to encourage student engagement and presence in the building.
@@ -119,7 +118,7 @@ When the building was finished in 1974, it overlooked a transformed campus space
 class="img-center"
 width="100%"
 caption="The newly bricked Smith Plaza brought much more foot traffic to the area behind Zimmerman, connecting two sides of campus."
-image-path="images/humanities-building-old-plaza.jpg"
+image-path="humanities-building-old-plaza.jpg"
 %}
 
 ## Acclaim
@@ -128,7 +127,7 @@ image-path="images/humanities-building-old-plaza.jpg"
 class="img-right"
 width="50%"
 caption="The article announcing Kruger's architectural award quotes 'The Conception of the Humanities Building' in spite of the fact that the building did not at all match the vision or needs outlined in that document."
-image-path="images/humanities-building-holiday-inn.jpg"
+image-path="humanities-building-holiday-inn.jpg"
 %}
 
 In 1977, the Humanities building won W.C. Kruger & Associates a Merit Award from The American Institute of Architects' New Mexico Society of Architects. Jury comments for the award noted that the building was "sensitive to siting, exposure, mall, etc. and responsive toward inhabitants and users" and noted that the decision to design each floor using a different color made the building feel "early 'Holiday Inn.'"
@@ -141,7 +140,7 @@ More significantly, especially since the 2018 renovation of Smith Plaza, the are
 class="img-center"
 width="100%"
 caption="From this aerial view, you can see the building's shaded exterior balconies as well as its windows, which are set deep into 'tight spaces and corners' of the block structure that the department heads so disliked because they limit the amount of light that enters the building."
-image-path="images/humanities-building-from-above.jpg"
+image-path="humanities-building-from-above.jpg"
 %}
 
 The humanities are an important part of UNM's culture and structure. All incoming first-year students, for instance, must take English 110 and/or 120, both of which are taught by English TAs whose offices are in the Humanities building. All instructors for these courses hold one-on-one conferences and office hours for students at least once per semester, meaning that nearly every student at UNM will spend time in the Humanities building during their first year on campus.

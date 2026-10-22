@@ -5,9 +5,8 @@ layout: essay
 date: 2025-04-25
 popup-teaser: From 1959 to today, the Student Union Building has functioned as a gathering place for student organizations, a dining facility, and a location for large meetings.
 card-description: From 1959 to today, the Student Union Building has functioned as a gathering place for student organizations, a dining facility, and a location for large meetings.
-card-image: /essays/sub/images/sub1.jpg
 header-title: SUB - Student Union Building
-header-image: /essays/sub/images/sub1.jpg
+header-image: sub1.jpg
 header-height: 50vh
 start: 1959
 category: Student Resource
@@ -18,8 +17,8 @@ category: Student Resource
 The University of New Mexico built the current Student Union Building, known as the SUB, in 1959. The SUB functions as a gathering place for student organizations, a dining facility, and a location for large meetings.
 
 {% include images/juxtapose.html
-image1="images/sub1959cropped.png"
-image2="images/subtoday.jpg"
+image1="sub1959cropped.png"
+image2="subtoday.jpg"
 caption="The SUB in 1959 versus the SUB in 2025. 1959 photo by Dick Meleski. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/537/rec/2) "
 %}
 
@@ -36,7 +35,7 @@ In 1956, the Student Council voted in favor of a fee to fund the construction of
 
 [^note2]: "Dedication of the New Mexico Union," Program Pamphlet, November 14, 1959.
 
-{% include images/figure.html class="img-right" width="48%" caption="An architectural drawing of the ground floor of the SUB from the 1959 construction plans. Source: University of New Mexico Archives, Center for Southwest Research." image-path="images/lowerlevelfloormap1959.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="An architectural drawing of the ground floor of the SUB from the 1959 construction plans. Source: University of New Mexico Archives, Center for Southwest Research." image-path="lowerlevelfloormap1959.jpg" %}
 
 By all accounts, students enjoyed the 1959 SUB for many years, with spacious dining areas and a twelve lane bowling alley on the lower floor.
 
@@ -68,7 +67,7 @@ Project delays pushed the completion of the renovation to July 2003. No further 
 ## Features and Amenities
 At various times in its history, the SUB included a sodar bar, a bowling alley, a billiards room, a video game arcade, and a fitness center. Services available at the SUB have included a barber shop, a bank, and a backpacking equipment rental desk. The campus bookstore was also located in the SUB from 1950 until the early 1970s.
 
-{% include images/figure.html class="img-left" width="48%" caption="A photograph of the bowling alley in the SUB. Photo by Bob Wyer Photocards, Delhi, NY. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3644/rec/5)" image-path="images/subbowling1.jpg" %}
+{% include images/figure.html class="img-left" width="48%" caption="A photograph of the bowling alley in the SUB. Photo by Bob Wyer Photocards, Delhi, NY. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3644/rec/5)" image-path="subbowling1.jpg" %}
 
 The SUB has continuously operated a theater space, at times for live performances in addition to film screenings. Toward the end of the twentieth century, the SUB maintained a large copy center. As a reflection of the large percentage of commuter students, the lounge spaces have also been a mainstay of the SUB.
 
@@ -78,12 +77,12 @@ In 1973, the Union Board decided to demolish the bowling alley.[^note9] In prior
 
 
 {% assign images = 
-"images/subdining1960s.jpg,
-images/store1950s.jpg,
-images/1950s-lounge.jpg,
-images/atrium-construction.jpg,
-images/bowling2.jpg,
-images/bowling-alley-die-soon3.jpg" | split: ','
+"subdining1960s.jpg,
+store1950s.jpg,
+1950s-lounge.jpg,
+atrium-construction.jpg,
+bowling2.jpg,
+bowling-alley-die-soon3.jpg" | split: ','
 %}
 
 {% include images/carousel.html
@@ -98,8 +97,8 @@ images = images
 In 1970 and 2024, students occupied the SUB as a social protest action against the University for its support of the national and global military industrial complex.
 
 {% include images/juxtapose.html
-image1="images/subpolice1970.jpg"
-image2="images/subpolice2024.jpg"
+image1="subpolice1970.jpg"
+image2="subpolice2024.jpg"
 caption="Militarized law enforcement in 1970 and 2024. 1970 photo from the Calvin Horn Collection [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/964/rec/7). 2024 photo by Leila Chapa [Source](https://www.dailylobo.com/article/2024/05/the-subs-history-with-anti-war-protest)."
 %}
 
@@ -136,7 +135,7 @@ On April 29, students and members of the community expanded the protest. They oc
 
 However, the occupation lasted less than ten hours. 
 
-{% include images/figure.html class="img-right" width="48%" caption="New Mexico State Police in riot gear on the night of April 30, 2024. Photo by Ella Daniel. [Source](https://www.dailylobo.com/article/2024/05/16-arrested-after-pro-palestine-protesters-occupy-the-sub)" image-path="images/2024subpolice2.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="New Mexico State Police in riot gear on the night of April 30, 2024. Photo by Ella Daniel. [Source](https://www.dailylobo.com/article/2024/05/16-arrested-after-pro-palestine-protesters-occupy-the-sub)" image-path="2024subpolice2.jpg" %}
 
 At 3:30am on Tuesday, April 30, in a militarized police action, the New Mexico State Police arrested 21 protestors. A statement the following day from the United Academics of UNM, the union representing the faculty, read "We urge President Stokes and Provost Holloway to de-escalate their response toward students exercising their first amendment rights."[^note14] 
 

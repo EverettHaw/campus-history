@@ -73,11 +73,11 @@ Folder names must be:
 
 Good folder names look like `mesa-vista-hall`, `maxwell-museum`, or `duck-pond`.
 
-Inside your copied folder, keep the file named `index.md`. Your folder should now look something like this:
+Inside your copied folder, keep the file named `index.md`. That file is your essay; everything else in the folder is an image or other media it uses. Your folder should now look something like this:
 
 ```text
 essays/mesa-vista-hall/index.md
-essays/mesa-vista-hall/images/sample-archive-photo.jpg
+essays/mesa-vista-hall/sample-archive-photo.jpg
 ```
 
 ## Customize the Metadata
@@ -94,8 +94,7 @@ header-title: Mesa Vista Hall
 category: Dormitory
 popup-teaser: A one-sentence teaser for the map or directory.
 card-description: A two-sentence description that helps readers decide to open your essay.
-card-image: /essays/mesa-vista-hall/images/example.jpg
-header-image: images/example.jpg
+header-image: example.jpg
 ---
 ```
 
@@ -107,13 +106,10 @@ When you copy a starter essay, replace the starter metadata with your own inform
 - `category`
 - `popup-teaser`
 - `card-description`
-- `card-image`
 - `header-image`
 - `start`
 
-The `card-image` path starts from the root of the site, so it should include your essay folder name: `/essays/mesa-vista-hall/images/example.jpg`.
-
-The `header-image` path starts from inside your essay folder, so it usually looks shorter: `images/example.jpg`.
+`header-image` is the filename of the large image at the top of your page, such as `example.jpg`. The same image also stands for your essay in the directory, on the map, and on the homepage. If you want a different picture there, add a `card-image:` line with that image's filename.
 
 Use one of these preferred categories when possible:
 
@@ -137,17 +133,21 @@ The current Campus History directory is generated from essay metadata. You do no
 
 ## Add Images
 
-The starter essay already includes an `images` folder with sample images. Replace those sample images with your own images from the archive, or upload additional images to the same folder.
+Your images go in your essay folder, right next to `index.md`. The starter essay came with three sample images there; delete them once your own images have replaced them.
+
+To add images on GitHub, open your essay folder, choose `Add file` > `Upload files`, and click `Commit changes`. In the web editor, you can drag images from your computer onto your essay folder instead.
+
+Name each file in lowercase, with hyphens instead of spaces, and keep its extension: `mvh-construction-1950.jpg`, not `MVH Construction (1).JPG`. Rename files on your computer before you upload them, because renaming one later means fixing every place your essay mentions it.
 
 Your folder should look like this:
 
 ```text
 essays/mesa-vista-hall/index.md
-essays/mesa-vista-hall/images/mvh-construction.jpg
-essays/mesa-vista-hall/images/mvh-today.jpg
+essays/mesa-vista-hall/mvh-construction-1950.jpg
+essays/mesa-vista-hall/mvh-today.jpg
 ```
 
-Image paths must match exactly, including capitalization, spaces, punctuation, and file extension. `mvh.jpg`, `MVH.jpg`, and `mvh.jpeg` are three different filenames.
+In your essay, refer to an image by its filename alone, with no folder in front of it: `image-path="mvh-today.jpg"`. The filename must match exactly, including capitalization and extension. `mvh.jpg`, `MVH.jpg`, and `mvh.jpeg` are three different files.
 
 ### How big should images be?
 
@@ -165,7 +165,7 @@ Use the Campus History image include instead of regular Markdown image syntax:
   class="img-center"
   width="100%"
   caption="Construction of Mesa Vista Hall in 1950. This image shows how the building was originally framed as a residential solution for postwar enrollment growth. Source: Center for Southwest Research, collection and box information."
-  image-path="images/mvh-construction.jpg"
+  image-path="mvh-construction-1950.jpg"
 %}
 ```
 {% endraw %}
@@ -203,7 +203,7 @@ Before submitting, open your preview site and check:
 
 - Your essay page loads at `/essays/your-folder-name/`.
 - The page title, author, card description, and category are correct.
-- Your header image and card image appear.
+- Your header image appears at the top of your page, and on your essay's card on the preview site's Essays page (`/directory/`).
 - Every image in the essay appears.
 - Captions are informative and include source information.
 - Links go where you expect.
@@ -219,7 +219,7 @@ When your page is ready, send your work back to the main Campus History reposito
 2. Click `Contribute` or `Pull requests`.
 3. Click `Open pull request` or `New pull request`.
 4. Review the list of changed files.
-5. Make sure you are only submitting your essay folder and related images unless your instructor told you otherwise.
+5. Make sure every changed file is inside your essay folder unless your instructor told you otherwise.
 6. Click `Create pull request`.
 7. Add a short note with your name, course, and topic.
 

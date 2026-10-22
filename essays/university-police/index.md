@@ -4,10 +4,9 @@ author: Luke Betzner
 layout: essay
 date: 2025-04-24
 card-description: This overview is a bandaid holding together a sparse, truncated, and incomplete history of UNMPD. Who will take on the rewarding challenge of adding to it?
-card-image: /essays/university-police/images/1970-UNM-vs-BYU-Game.jpg
 popup-teaser: Do you like to find and fill archival gaps?
 header-title: University Police
-header-image: images/1970-UNM-vs-BYU-Game.jpg
+header-image: 1970-unm-vs-byu-game.jpg
 header-position: 0px
 category: Campus Services
 ---
@@ -16,13 +15,13 @@ category: Campus Services
 
 ## A Tale of Two Boxes
 
-{% include images/figure.html class="img-center" width="100%" caption="The two boxes of archival resource UNMA 171. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/unm-cswr-two-boxes.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The two boxes of archival resource UNMA 171. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="unm-cswr-two-boxes.jpg" %}
 
 Since the University of New Mexico was founded 1889, initially, I assumed that out of the massive numbers of records that must have surely been compiled since that time, that I would have the option to interact with a significant amount of archival material. I was eager to begin going about determining a proper historiographical method of selecting the necessary sources from which to craft my narrative. 
  
  Imagine my surprise when after making my initial request of the excellent archivists that staff the CSWR to have just two boxes set in front of me. I asked whether or not they had more boxes and just did not bring them. Upon asking that, I was told that these two boxes were all there was. I again asked to clarify whether the archivist was saying whether or not there were only two boxes in the collection UNMA 171 or whether there were only two boxes that contained the entire history of the University Police Department. The archivist confirmed the latter. After she returned to her desk, I sat there dumfounded, staring at the two boxes in front of me. This was not at all what I was expecting. As I opened the boxes, my consternation only grew. What follows is the information I was able to discover regarding the nearly undocumented history of the UNM Police Department. But first, a clarifying note.
 
-{% include images/figure.html class="img-center" width="100%" caption="Box 1 of unma 171 with its eight folders. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/unma-171-box-1-open-with-folders.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Box 1 of unma 171 with its eight folders. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="unma-171-box-1-open-with-folders.jpg" %}
 
  A police department is something separate from the things that they do. It is a group of persons voluntarily bound together by an ideal and mission. They do things, but simply because they do things, does not mean that one can truly know the history of the department itself simply by looking at the many things in which they have been involved. That constitutes more the history of their presence in the community rather than a history of the department itself. So what do I mean then when I ask, what is the history of the UNM Police Department? I intend to pursue questions such as 'When was the department created?', 'Who was the first officer to lead the department?', 'Where was the department housed on UNM campus?', 'What was the daily life of officers like and how has that changed over time?' and other such questions. In so brief a space, I cannot possibly properly treat the breadth and depth of this subject with even a rigorous overview. Rather it is my hope and intention in both seeking this information out myself, as well as creating some visibility around a clear opportunity to create a more robust archival presence for the UNMPD, that other students will take upon themselves the same mantle of discovery regarding the history of this essential department of UNM.
 
@@ -39,7 +38,7 @@ All that exists within the archive that corroborates the existence of the police
   class="img-center"
   width="100%"
   caption="Article in the Daily Lobo, shortly after the founding and staffing of the UNMPD."
-image-path="images/1947-announcement-police-force-unm.png" %}
+image-path="1947-announcement-police-force-unm.png" %}
 
 
 
@@ -51,7 +50,7 @@ Therefore, seeing the very gradual process of enforcement and necessity within t
 
 {% include scrollybox/bg.html
   height="300"
-  image-url="images/hokona-zuni-basement-unmpd-door.jpg"
+  image-url="hokona-zuni-basement-unmpd-door.jpg"
   position = "top"
   pre-box-space = "100vh"
   font-size = "150%"
@@ -75,7 +74,7 @@ After looking at the brief news blurb in the Daily Lobo, I began trying to hunt 
 
 Where the Police department went following this was a mystery until I spoke to a former head of the security department, by the name of Rosemary Melendrez. She had worked in the department from 1995-2020. She is directly responsible for a large unprocessed 3rd box of materials not included in the UNMA 171 collection. She expended significant effort on tracking changes and activities in the department. Her efforts are the only thing that even begins to approach an archival presence, but it has not been incorporated into the archive yet. This box only came to light due to the expertise of the CSRW head of archives Portia Vescio.
 
-{% include images/figure.html class="img-center" width="100%" caption= "An unprocessed mystery box. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/unprocessed-box-with-binders-rosemary.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption= "An unprocessed mystery box. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="unprocessed-box-with-binders-rosemary.jpg" %}
 
 
 
@@ -92,7 +91,7 @@ In conclusion, and it seems, at long last, there is something unique happening i
 
 {% include images/jumbotron.html
   height="100"
-  image-path="images/future-unmpd-hq-april-2025.jpg"
+  image-path="future-unmpd-hq-april-2025.jpg"
   title="Future HQ of UNMPD"
 %}
 

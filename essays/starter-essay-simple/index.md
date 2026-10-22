@@ -7,8 +7,7 @@ header-title: Your Campus Topic
 category: Starter Essay
 popup-teaser: Replace this with one clear sentence that makes readers want to know more.
 card-description: Replace this with two sentences that summarize the story your essay tells and why it matters.
-card-image: /essays/starter-essay-simple/images/sample-archive-photo.jpg
-header-image: images/sample-archive-photo.jpg
+header-image: sample-archive-photo.jpg
 header-caption: Replace with a short source note for the header image. Plain text only here, no links.
 start: 1950
 ---
@@ -23,13 +22,15 @@ Use this section to tell the most important part of the history. Keep paragraphs
 
 Use specific evidence from the archive. Name dates, people, places, decisions, conflicts, renovations, controversies, or missing records when they matter. The goal is not just to list facts. The goal is to explain what those facts reveal about UNM and its history.
 
-<!-- Full-width figure. This is the default for any landscape photo wider than about 700px. -->
+<!-- Full-width figure. This is the default for any landscape photo wider than about 700px.
+     image-path is just the filename: upload your images into this essay's folder,
+     next to index.md. -->
 
 {% include images/figure.html
   class="img-center"
   width="100%"
   caption="Replace this caption. Say why the image matters, not just what it shows, then cite where you found it: [Center for Southwest Research](https://econtent.unm.edu/), collection and box number."
-  image-path="images/sample-archive-photo.jpg"
+  image-path="sample-archive-photo.jpg"
 %}
 
 Every image needs a caption, including this one. A caption should explain what the reader should notice and where the image came from. Captions accept Markdown, so use `[source](https://example.com/)` to link to a digital collection whenever the image has an online home.
@@ -46,9 +47,9 @@ This is a good place to connect your specific topic to a larger campus pattern: 
      the collection name and box number instead of linking. -->
 
 {% assign images =
-"images/sample-archive-photo.jpg,
-images/sample-second-photo.jpg,
-images/sample-primary-source.jpg" | split: ','
+"sample-archive-photo.jpg,
+sample-second-photo.jpg,
+sample-primary-source.jpg" | split: ','
 %}
 
 {% assign headers =
@@ -83,7 +84,7 @@ Use this section to show readers a document, not just a photograph. Scanned lett
   class="img-center"
   width="55%"
   caption="Replace this caption. Tell readers what to notice in the document and why it changes how they should understand your topic. Cite the collection, box, and folder."
-  image-path="images/sample-primary-source.jpg"
+  image-path="sample-primary-source.jpg"
 %}
 
 Explain what the document says, what it does not say, and how it fits the story. A source you actually read and explain is worth more than three you only mention.
