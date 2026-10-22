@@ -169,6 +169,17 @@ campus-history uses photographs at full fidelity.
   letter-spacing: 0.1em;
 }
 
+/* Byline under the title. Set in the sans, like the eyebrow, so it
+   reads as a credit rather than a continuation of the subtitle. */
+.page-header .page-header-author {
+  margin-top: 0.75rem;
+  font-family: var(--font-body, sans-serif);
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #fffaf0;
+}
+
 
 /* =====================================================
    CAPTION STRIPE

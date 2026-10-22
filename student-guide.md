@@ -125,7 +125,7 @@ Then get the file ready:
    - `header-image:` your image's filename, exactly as it appears in the file list
    - `header-caption:` where your image came from
 4. **Commit.** Open Source Control. The changes should be your image and `index.md`. Type a message such as `Add my header image` and click `Commit & Push`.
-5. **Check your preview.** Wait a minute or two, then open `https://YOUR-USERNAME.github.io/campus-history/essays/your-folder-name/` and reload the page. Your image should fill the top of the page, with your title over it and your category just above the title.
+5. **Check your preview.** Wait a minute or two, then open `https://YOUR-USERNAME.github.io/campus-history/essays/your-folder-name/` and reload the page. Your image should fill the top of the page, with your title over it, your category just above the title, and your name below it.
 
 That is a working page of your own. Below the header, it still shows the starter's placeholder text and sample images until you replace them.
 
@@ -161,7 +161,7 @@ layout: essay
 What each line does:
 
 - `title` names your essay over the header image, in the directory, in the essay lists, and in the browser tab.
-- `author` is your name.
+- `author` is your name, shown under your title as a byline.
 - `category` sorts your essay in the directory, and appears just above your title. The starter's category is `Starter Essay`, which keeps a page out of the directory and the arrows between essays, so change it to one from the [list below](#categories).
 - `header-image` is the filename of the large image at the top of your page, such as `mesa-vista-hall-today.jpg`. The same image also stands for your essay in the directory, on the map, and on the homepage.
 - `header-caption` says where the header image came from. Plain text only: links do not work here.

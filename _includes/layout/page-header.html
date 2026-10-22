@@ -5,6 +5,7 @@
     image-path:   background image path (required)
     title:        building/page title shown over the image
     subtitle:     optional subtitle below the title
+    author:       optional byline below the title and subtitle
     caption:      description of what the image shows — displayed in stripe at bottom
     bg-position:  CSS background-position (default: center)
     prev-url:     URL of previous essay (alphabetical); omit to hide left arrow
@@ -36,6 +37,9 @@
     {% endif %}
     {% if include.subtitle %}
     <p>{{ include.subtitle }}</p>
+    {% endif %}
+    {% if include.author %}
+    <p class="page-header-author">By {{ include.author }}</p>
     {% endif %}
   </div>
   {% endunless %}
