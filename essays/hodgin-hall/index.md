@@ -2,15 +2,10 @@
 title: Hodgin Hall
 author: Brittney Vasquez
 layout: essay
-date: 2019-04-10
 popup-teaser: The oldest building on UNM campus, built in 1892
-card-description: 'Hodgin Hall, previously known as the Administration Building was built in 1892 and is the oldest building on UNM campus. '
+card-description: Hodgin Hall, previously known as the Administration Building, was built in 1892 and is the oldest building on UNM campus.
 header-image: hodgin-hall-main-pic.png
-type: admin
 start: 1892
-end: 1898
-type2: classrooms
-start2: 1936
 header-title: Hodgin Hall
 category: Historic Building
 ---

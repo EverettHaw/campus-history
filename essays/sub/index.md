@@ -2,8 +2,6 @@
 title: SUB - Student Union Building
 author: Jonathan Seyfried
 layout: essay
-date: 2025-04-25
-popup-teaser: From 1959 to today, the Student Union Building has functioned as a gathering place for student organizations, a dining facility, and a location for large meetings.
 card-description: From 1959 to today, the Student Union Building has functioned as a gathering place for student organizations, a dining facility, and a location for large meetings.
 header-title: SUB - Student Union Building
 header-image: sub1.jpg

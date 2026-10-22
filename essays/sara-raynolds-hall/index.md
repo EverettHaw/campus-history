@@ -2,16 +2,11 @@
 title: Sara Raynolds Hall
 author: Autumn Buckridge
 layout: essay
-date: 2019-04-20
 popup-teaser: Check out Sara Raynolds Hall and travel back in time one hundred years
 card-description: A Mayan Pueblo Revival building built in 1920 to house the Home Economics Department
 header-title: Sara Raynolds Hall
 header-image: srh_construction1.jpg
-type: classrooms
 start: 1920
-end: 1963
-type2: offices
-start2: 1963
 category: Academic Building
 ---
 

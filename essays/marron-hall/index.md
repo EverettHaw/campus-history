@@ -2,12 +2,10 @@
 title: Marron Hall
 author: Gabrielle Hockstra-Johnson
 layout: essay
-date: 2019-04-10
-popup-teaser: The building formerly known as South Hakona Hall
-card-description: Originally a women's wing of Hakona Hall, Marron Hall came to be after constructions and restorations of a few former campus buildingd.
+popup-teaser: The building formerly known as South Hokona Hall
+card-description: Originally a women's wing of Hokona Hall, Marron Hall came to be after the construction and restoration of a few former campus buildings.
 header-title: Marron Hall
 header-image: marron-hall.jpg
-type: dorm
 start: 1921
 category: Dormitory
 ---

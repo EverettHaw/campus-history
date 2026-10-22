@@ -1,11 +1,10 @@
 ---
-title: Womens Resource Center
+title: Women's Resource Center
 author: Adriana Gutierrez
-date: 2025-05-13
 layout: essay
 popup-teaser: A living legacy of the women who reshaped UNM.
-card-description: The Women's Resource Center carries forward a legacy of resistace and institutional change, and is now a home for advocacy, support, and equity.
-header-title: Womens Resource Center
+card-description: The Women's Resource Center carries forward a legacy of resistance and institutional change, and is now a home for advocacy, support, and equity.
+header-title: Women's Resource Center
 header-image: wrc-building.jpeg
 header-position: 0px
 category: Student Resource

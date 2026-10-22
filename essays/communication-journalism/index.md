@@ -2,12 +2,10 @@
 title: C & J Building
 author: Alyssa Bitsie
 layout: essay
-date: 2019-04-10
 header-image: cj-front.jpg
 header-title: Communication & Journalism
 popup-teaser: Before 1947, journalism was a major in the English Department
 card-description: Built in 1949, the Communication & Journalism building originally housed the printing plant, post office and UNM Press.
-type: offices
 start: 1949
 category: Academic Building
 ---

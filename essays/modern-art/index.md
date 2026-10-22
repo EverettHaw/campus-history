@@ -2,13 +2,11 @@
 title: Modern Art
 author: Jared Lucero
 layout: essay
-date: 2019-03-25
 popup-teaser: One of the most popular spaces walked through by students, faculty, and visitors!
 card-description: “I think everyone can relate to some part of it - the piece has a storyline to a certain extent that is easily recognizable. It’s fun. I really want people to enjoy it.”
 header-title: Modern Art
 header-image: modern-art-intro.jpg
-type: art
-start: 
+start:
 category: Public Art
 ---
 

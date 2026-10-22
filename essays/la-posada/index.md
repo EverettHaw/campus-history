@@ -2,11 +2,9 @@
 title: La Posada Dining Hall
 author: Aaron Padilla
 layout: essay
-date: 2019-04-10
-popup-teaser: Built in the clasic adobie style and the tertiary adjunct to De Vargus and Laguna Dormatory
-card-description: La Posada Dining Hall was apart of a major dormatory contruction project that would soon become a major part of UNM and is refelct the campus culture in the 1960-70s
+popup-teaser: Built in the classic adobe style, the tertiary adjunct to De Vargas and Laguna dormitories
+card-description: La Posada Dining Hall was part of a major dormitory construction project that would soon become a major part of UNM, and it reflects the campus culture of the 1960s and 70s
 header-image: la-posada-building-sign.jpg
-type: dorm
 start: 1969
 header-title: La Posada Dining Hall
 header-zoom: 120%

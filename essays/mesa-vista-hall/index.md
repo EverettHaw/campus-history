@@ -2,15 +2,8 @@
 title: Mesa Vista Hall
 author: Fred Gibbs
 layout: essay
-date: 2015-04-14
-popup-teaser: From men's dorm to bastion of the humanities
 card-description: From men's dorm to bastion of the humanities
-type: dorm
 start: 1950
-end: 1975
-type2: offices
-start2: 1975
-end2:
 header-title: Mesa Vista Hall
 header-image: mvh-construction.jpg
 header-position: 10px

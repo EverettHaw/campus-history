@@ -2,12 +2,9 @@
 title: Ortega Hall
 author: Dyson Chmura
 layout: essay
-date: 2019-04-10
-popup-teaser: Completed in 1977, this first increment in the main academic area of the central campus established the upper pedestrian walkway system which connects the major academic buildings south of the central plaza.
 card-description: Completed in 1977, this first increment in the main academic area of the central campus established the upper pedestrian walkway system which connects the major academic buildings south of the central plaza.
 header-title: Ortega Hall
 header-image: ortega-hall-exterior1.jpeg
-type: offices
 start: 1971
 category: Academic Building
 ---

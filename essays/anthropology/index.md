@@ -2,16 +2,11 @@
 title: Anthropology Building
 author: Maxine Porter
 layout: essay
-date: 2019-04-10
 header-image: anth-exterior-close.jpg
 header-position: 0 60%
 popup-teaser: The original Student Union Building, now home to the Anthropology Department.
 card-description: Constructed in 1937 as the original Student Union Building, the Anthropology building represents the changing heart of the University of New Mexico.
-type: activity
 start: 1936
-end: 1960
-type2: classrooms
-start2: 1960
 header-title: Anthropology Building
 category: Academic Building
 ---

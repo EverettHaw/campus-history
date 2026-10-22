@@ -2,12 +2,9 @@
 title: Popejoy Hall
 author: Lucia DeMartino
 layout: essay
-date: 2019-05-10
-popup-teaser: Popejoy was President of the University of New Mexico from 1948 until his retirement in 1968. Popejoy was an advocate for academic freedom and a strong supporter of the arts.
 card-description: Popejoy was President of the University of New Mexico from 1948 until his retirement in 1968. Popejoy was an advocate for academic freedom and a strong supporter of the arts.
 header-title: Popejoy Hall
 header-image: popejoy-66.jpg
-type: activity
 start: 1966
 category: Arts Venue
 ---

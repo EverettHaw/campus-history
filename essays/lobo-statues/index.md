@@ -2,7 +2,6 @@
 title: Lobo Statues
 author: Maya Vigil
 layout: essay
-date: 2025-04-29
 popup-teaser: Have you seen the various lobo statues around campus? Let's learn about their history!
 card-description: Beginning with John Tatschl's Lobo statue erected in 1947, various other lobo statue have come to adorn the campus in the following decades. From the lobo overlooking the corner of campus to the smaller statues, the mascot of the university finds its home in various spots across the campus.
 header-image: lobo-header-1.jpg

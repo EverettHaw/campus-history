@@ -2,16 +2,13 @@
 title: UNM Press
 author: Mason Parrish
 layout: essay
-date: 2025-05-16
 popup-teaser: The long and storied history of one of UNM's lesser-known institutions and the building it currently resides in
 card-description: The concurrent stories of the development of the University of New Mexico Press and the changes its current home at 1717 Roma, once a sorority house, went through.
 header-image: pxl_20250501_220349996.jpg
 header-title: UNM Press
-header-position:
-type: offices
-start: 1928 
+start: 1928
 category: Office
---- 
+---
 
 The University of New Mexico Press has been a fixture of UNM for nearly a century. Compared to many of the other long-standing institutions on campus, though, the Press has shifted between many different locations over the years. Currently, it is based out of 1717 Roma Avenue NE, to the west of Dane Smith Hall and north of the Anthropology building; this location was first constructed as the Alpha Chi Omega sorority house in 1930-31, following the establishment of its UNM Chapter in 1918.[^Mirage35] The Press occupies the first floor and basement of the building, with one office on the upper level (the rest are reserved for overflow from Scholes Hall, across the street and to the east). 
 

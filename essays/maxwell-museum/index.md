@@ -2,7 +2,6 @@
 title: Maxwell Museum
 author: Jackie Truitt
 layout: essay
-date: 2025-05-06
 popup-teaser: Did you know that Albuquerque's first public museum was on campus?
 card-description: The Maxwell Museum of Anthropology has been providing students and the public alike with enriching experiences since 1932.
 header-image: 1970s-maxwell.jpg

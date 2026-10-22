@@ -1,13 +1,11 @@
 ---
 title: Yatoka Hall
 author: Nick Christman
-date: 2019-05-09
 layout: essay
 popup-teaser: This building looks like it sits over the Duck Pond because before 1975, this space was occupied by Yatoka Hall.
-card-description: Yatoka Hall was built to be a mens dorm in 1928. Later, it would be used for classrooms before being demolished to make room for the Duck Pond.
+card-description: Yatoka Hall was built to be a men's dorm in 1928. Later, it would be used for classrooms before being demolished to make room for the Duck Pond.
 header-image: yatoka-hall-1928.jpg
-type: dorm
-start: 1928 
+start: 1928
 header-title: Yatoka Hall
 category: Dormitory
 ---

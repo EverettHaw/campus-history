@@ -2,14 +2,11 @@
 title: Humanities Building
 author: Jessica Bowen
 layout: essay
-date: 2019-04-10
 popup-teaser: An administration building with award-winning but highly controversial architecture
 card-description: Award-winning architecture that sparked intense philosophical debate among the administration building's intended residents
 header-title: Humanities Building
 header-image: humanities-building-old-plaza-bw.jpg
-type: offices
 start: 1972
-end: 2026
 category: Academic Building
 ---
 

@@ -2,7 +2,7 @@
 title: About the project
 date: 2019-04-25
 layout: essay
-header-image: "/assets/images/1946 map to campus.jpg"
+header-image: "/assets/images/1946-map-to-campus.jpg"
 header-position: "0px -20px"
 ---
 
@@ -16,7 +16,7 @@ Building a website collaboratively---even just with pseudocode to format digital
 Through open-source workflows, students gain hands-on experience with version control, collaboration, and scholarly publishing, learning how to share their work in ways that invite peer-review, feedback, reuse, and continued growth. Our approach shows that scholarship can be public, collaborative, and sustainable. The platform not only showcases student research but also serves as a model for how open-source values and digital humanities tools can expand access to knowledge and strengthen academic communities.
 
 ## Web Technology
-At it's core, this site uses GitHub Pages, a free and straightforward platform that allows you to create and publish websites directly from files in a GitHub "repository"---just a fancy name for a shared online folder for your project.
+At its core, this site uses GitHub Pages, a free and straightforward platform that allows you to create and publish websites directly from files in a GitHub "repository"---just a fancy name for a shared online folder for your project.
 
 For course projects, it can serve as a low-barrier entry point to digital project publishing without needing to manage servers, install complex software, or pay for hosting.
 

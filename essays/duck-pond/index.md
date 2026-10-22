@@ -2,13 +2,11 @@
 title: Duck Pond
 author: Mateo Quintana
 layout: essay
-date: 2019-04-11
 popup-teaser: A relaxing place for students to eat, study, or lounge around
-card-description: Built in 1975 people were hesitant about a landscaping project.During and even shortly after construction it was criticized heavily. It was eventually named by the students who adore it to this day.
+card-description: Built in 1975, the landscaping project met with hesitation and was criticized heavily during and shortly after construction. It was eventually named by the students who adore it to this day.
 header-image: duck-pond-0002.jpg
 header-position: center 70%
-type: nature
-start: 1976
+start: 1975
 header-title: Duck Pond
 header-caption: "The original Pond in 1975"
 category: Landscape

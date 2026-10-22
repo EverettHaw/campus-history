@@ -1,18 +1,11 @@
 ---
 title: Center of the Universe
 author: Alex Wells
-date: 2019-05-10
 layout: essay
 header-image: cotu-sketch.jpg
 header-title: The Center of the Universe
-popup-teaser: A unique walk through sculpture by Bruce Nauman
 card-description: A unique walk through sculpture by Bruce Nauman
-type: art
 start:
-end: 
-type.1:
-start.1: 
-end.1:
 category: Public Art
 ---
 

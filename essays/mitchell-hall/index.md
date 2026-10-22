@@ -2,14 +2,11 @@
 title: Mitchell Hall
 author: L.C. Hampton
 layout: essay
-date: 2019-04-10
-popup-teaser: Come take a look into the history behind this 1950's building
 card-description: Come take a look into the history behind this 1950's building
 card-image: mitchell-hall.jpg
 header-image: mitchell-hall-bw-outside.jpg
 header-position: center top
 header-caption: "Mitchell Hall in 1951, with newly planted trees around the new building"
-type: classrooms
 start: 1950
 header-title: Mitchell Hall
 category: Classroom Building

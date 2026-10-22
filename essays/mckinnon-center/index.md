@@ -2,14 +2,11 @@
 title: McKinnon Center for Management
 author: Jacob Howell
 layout: essay
-date: 2019-04-11
 popup-teaser: UNM's latest and greatest development
 card-description: The McKinnon Center for Management building is the newest addition to UNM's School of Management program
 header-title: McKinnon Center for Management
 header-image: mcm.jpg
-type: 
-start: 
-end:
+start:
 category: Academic Building
 ---
 

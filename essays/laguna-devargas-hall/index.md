@@ -2,8 +2,6 @@
 title: Laguna DeVargas Hall
 author: Brandon Rodriguez
 layout: essay
-date: 2015-04-14
-popup-teaser: Laguna DeVargas Hall (LDV) is one of the most distinctive and more classical residence halls at UNM.
 card-description: Laguna DeVargas Hall (LDV) is one of the most distinctive and more classical residence halls at UNM.
 header-image: laguna-de-vargas.jpg
 header-title: Laguna DeVargas Hall
