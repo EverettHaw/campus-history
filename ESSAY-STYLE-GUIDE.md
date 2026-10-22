@@ -1,3 +1,10 @@
+---
+# Maintainer documentation, not a page on the site. GitHub Pages publishes any
+# markdown file at the repo root as a page (this one appeared at /ESSAY-STYLE-GUIDE/);
+# this stops it.
+published: false
+---
+
 # Campus History Essay Style Guide
 
 This guide is for light editorial normalization of student essay pages. The goal is to make the collection feel cohesive and readable while preserving student authorship, argument, and voice.

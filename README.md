@@ -46,7 +46,7 @@ _includes/nav/                directory, compact list, essay pagination
 _includes/layout/             the shared page header
 _data/homepage.yml            which essays appear in the homepage blocks
 _data/home_quotes.yml         the rotating pull quotes on the homepage
-assets/css/                   base, typography, page-header, home, map
+assets/css/                   base, typography, page-header, backgrounds, home, unm-compat
 scripts/                      one-off maintenance scripts, not part of the build
 ```
 
@@ -83,9 +83,13 @@ broken.
 
 ## Deployment
 
-GitHub Pages builds `master` automatically; there is no CI workflow in the repo.
-`_config.yml` sets `permalink: pretty`, so pages build as directories
-(`/directory/`, not `/directory.html`) and trailing-slash links work.
+GitHub Pages builds `master` automatically, using its own builder rather than a
+deploy workflow. `_config.yml` sets `permalink: pretty`, so pages build as
+directories (`/directory/`, not `/directory.html`) and trailing-slash links work.
+
+The repo's one workflow, `.github/workflows/optimize-images.yml`, is not part of
+the build: it is a manual job run from the Actions tab that shrinks oversized
+images and commits the result. See [`scripts/README.md`](scripts/README.md).
 
 If a change doesn't appear on the live site, check that the Pages build actually
 succeeded — a failed build leaves the previous version served with no visible

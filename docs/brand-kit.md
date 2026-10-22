@@ -1,3 +1,10 @@
+---
+# Maintainer documentation, not a page on the site. GitHub Pages publishes any
+# markdown file at the repo root as a page (this one appeared at /docs/brand-kit/);
+# this stops it.
+published: false
+---
+
 # Campus History Brand Kit
 
 ## Direction

@@ -118,8 +118,6 @@ Click a building to read its essay.
   </div>
 `;
       var kmlFile = pt.kmlFile;
-      console.log("Loading name:", pt.image); // Add this line
-      console.log("Loading KML:", kmlFile); // Add this line
 
       var kmlLayer = omnivore.kml(kmlFile).on('ready', function () {
         // Attach the popup to each shape in the outline
