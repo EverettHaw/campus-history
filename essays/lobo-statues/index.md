@@ -5,8 +5,7 @@ layout: essay
 date: 2025-04-29
 popup-teaser: Have you seen the various lobo statues around campus? Let's learn about their history!
 card-description: Beginning with John Tatschl's Lobo statue erected in 1947, various other lobo statue have come to adorn the campus in the following decades. From the lobo overlooking the corner of campus to the smaller statues, the mascot of the university finds its home in various spots across the campus.
-card-image: /essays/lobo-statues/images/lobo-header-1.jpg
-header-image: images/lobo-header-1.jpg
+header-image: lobo-header-1.jpg
 header-title: The Lobo Statues
 header-position: 0px
 category: Public Art
@@ -15,11 +14,11 @@ category: Public Art
 
 Among the numerous public art installations on campus, you'll encounter many iterations of the University's mascot, the Lobo. First suggested in 1920, the Lobo is a recognizable and beloved school symbol, representing teamwork and fearlessness.[^mascot] Let's take a tour of the statues around campus.
 
-{% include images/figure.html class="img-center" width="100%" height="100" caption="One of the smaller _Spirit of the Lobo_ statues posed near the Duck Pond" image-path="images/lobo-snow-1.jpg"%}
+{% include images/figure.html class="img-center" width="100%" height="100" caption="One of the smaller _Spirit of the Lobo_ statues posed near the Duck Pond" image-path="lobo-snow-1.jpg"%}
 
 ## Lobo In Tight Grove
 
-{% include images/figure.html class="img-center" width="100%" height="100" caption="Sculpture Dedication. December 8, 1997." image-path="images/lobo-tight-grove-5.jpg"%} 
+{% include images/figure.html class="img-center" width="100%" height="100" caption="Sculpture Dedication. December 8, 1997." image-path="lobo-tight-grove-5.jpg"%} 
 
 Where might you encounter a real Lobo? While it is unlikely you'll ever stumble across a Mexican grey wolf in the wild, you _can_ find them in the mountain ranges of New Mexico. But, with a bit of wonder, you can imagine encountering one in its natural habitat with a visit to the Lobo in Tight Grove. Situated among century-old ponderosa pines, you'll find the UNM Lobo surveilling the corner of University and Central. The statue, sculpted by Michelle Middleton and cast by Richard Wortman, was a gift from the Alumni Association in 1997 to commemorate its 100th anniversary. [^tightgrove]
 
@@ -27,7 +26,7 @@ The Lobo finds an apt home in the man-made forest on the edge of campus. Tight G
  
 {% include scrollybox/bg.html
   height="120"
-  image-url="images/lobo-tatschl-01.jpg"
+  image-url="lobo-tatschl-01.jpg"
   pre-box-space = "50vh"
   font-size = "250%"
   line-height = "150%"
@@ -36,7 +35,7 @@ The Lobo finds an apt home in the man-made forest on the edge of campus. Tight G
 
 ## John Tatschl's _Lobo_ 
 
-{% include images/figure.html class="img-center" width="100%" height="100" caption="The Lobo in his current location. Photo by [Carol Highsmith](https://www.loc.gov/resource/highsm.65937/)" image-path="images/lobo-image-8.jpg" %}  
+{% include images/figure.html class="img-center" width="100%" height="100" caption="The Lobo in his current location. Photo by [Carol Highsmith](https://www.loc.gov/resource/highsm.65937/)" image-path="lobo-image-8.jpg" %}  
 
 The oldest of the lobo statues, John Tatschl's _Lobo_, has been a staple of campus since its unveiling in 1947. Tatschl, an Austrian artist and professor, began his career at the university the year prior and quickly became known for his contributions to art across campus. The Lobo statue was the first such work, followed by _The History of Writing_ in the Zimmerman Library stairwell, the colorful glass wall of the College of Education Building (formerly Travelstead Hall), and the altar screens inside the Alumni Memorial Chapel. Outside of artwork at the University, Tatschl constructed many other bronze statues across the country 
 
@@ -47,7 +46,7 @@ Unlike the lobo statue in Tight Grove, Tatschl's _Lobo_ does not conform to a re
 
 ## Construction of the Lobo
 
-{% include images/figure.html class="img-center" width="100%" height="100" caption="Tatschl supervising the installation of his statue." image-path="images/lobo-installation-2.jpg"%} 
+{% include images/figure.html class="img-center" width="100%" height="100" caption="Tatschl supervising the installation of his statue." image-path="lobo-installation-2.jpg"%} 
 
 Approached by either the student government or the fraternities and sororities on campus, Tatschl was commissioned by a university group to create a plan for the statue in the spring of 1947. The student group wanted to erect a memorial statue to honor the students and alumni who lost their lives during World War II.[^archive] By homecoming of the same year, he completed the statue. The bronze lobo was constructed in half a year for just $2800. When the statue was relocated in 1961, the cost of the new pedestal and hoists to move the statue was roughly $600. 
 
@@ -56,9 +55,9 @@ Various delays pushed back the statue's dedication, including difficulty fundrai
 ## Locations
 
 {% assign images = 
-"images/lobo-zimmerman-1.jpg,
-images/lobo-image-6.jpeg,
-images/lobo-image-7.jpeg" | split: ','
+"lobo-zimmerman-1.jpg,
+lobo-image-6.jpeg,
+lobo-image-7.jpeg" | split: ','
 %}
 
 {% include images/carousel.html
@@ -69,13 +68,13 @@ Tatschl's Lobo has made many homes across campus throughout its nearly 80 years.
 
 ## Hodgin Hall Lobo
 
-{% include images/figure.html class="img-center" width="100%" caption="A popular prop for graduation photos, the Lobo Head fittingly lives outside the Alumni Building." image-path="images/lobo-head-1.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="A popular prop for graduation photos, the Lobo Head fittingly lives outside the Alumni Building." image-path="lobo-head-1.jpg" %}
 
 Can't get enough of Professor Tatschl's _Lobo_? You'll find an oversized replica of the head of Tatschl's original Lobo outside Hodgin Hall. The replica was completed in June 1985 by the Shidoni Foundry in Tesque, New Mexico. The bronze statue is a donation to the University and Hodgin Hall by Eleanor and Dr. Randy Seligman.[^hodginhall]
 
 {% include scrollybox/bg-multi-long.html
   bg-id="bg1"
-  image-url="images/lobo-pond01.jpg"
+  image-url="lobo-pond01.jpg"
   pre-box-space="0"
   font-size = "150%"
   line-height = "100%"
@@ -85,13 +84,13 @@ Can't get enough of Professor Tatschl's _Lobo_? You'll find an oversized replica
 Lurking among the trees and bushes of central campus, you'll encounter smaller bronze lobo statues in various poses. The statues were donations to the University during the 2014 _Spirit of the Lobo_ campaign. The campaign, begun by then-University President Robert Frank, set out to commemorate what it means to be a Lobo through the installation of permanent bronze statues throughout the community. Purchased through the UNM Foundation, the statues were available for $5,000, with the opportunity to install them either on campus or elsewhere. Each statue on campus has a plaque thanking the donors. Similar to the Lobo in Tight Grove, the 36" lobo statues are realistic representations of the school mascot. [^unmnews]
 
 {% include scrollybox/bg-switch.html
-  image-url="images/lobo-bronze-2.jpg"
+  image-url="lobo-bronze-2.jpg"
   switch-id="switch1"
   bg-id="bg1"
 %}
 
 {% include scrollybox/bg-switch.html
-  image-url="images/lobos-1.jpg"
+  image-url="lobos-1.jpg"
   switch-id="switch1"
   bg-id="bg1"
 %}

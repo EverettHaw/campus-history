@@ -5,9 +5,8 @@ layout: essay
 date: 2019-04-10
 popup-teaser: The building formerly known as South Hakona Hall
 card-description: Originally a women's wing of Hakona Hall, Marron Hall came to be after constructions and restorations of a few former campus buildingd.
-card-image: /essays/marron-hall/images/marron-hall.jpg
 header-title: Marron Hall
-header-image: images/marron-hall.jpg
+header-image: marron-hall.jpg
 type: dorm
 start: 1921
 category: Dormitory
@@ -16,9 +15,9 @@ category: Dormitory
 
 Marron Hall existed as a space long before the building came to be known as Marron Hall. What is now known as Marron Hall came to existence in 1921, when the original South Hall was built. South Hall was built as an addition to the original Hokona Hall. At the time the population of UNM was booming and female students needed a place to board at on campus, before that time students could stay at one of the few dorm rooms on campus. But even fefore the dorms were built it was thought that female students could board with Albuquerque families. The rush of students was so much that by 1931 an addition had to be made to the dorm. It is this additional part that is now a part of Marron Hall. It is that same year that Frances Halloran Marron, Marron Hall's namesake, was appointed to the UNM Board of Regents.
 
-{% include images/figure.html class="img-center" width="100%" caption="Marron Hall circa late 90's-early 2000's" image-path="images/marron-hall.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="Marron Hall circa late 90's-early 2000's" image-path="marron-hall.png" %}
 
-{% include images/figure.html class="img-center" width="100%" caption="The original plans to the women's dorm. What would later become Marron Hall is the wing of the building labeled old addition." image-path="images/oldhokonahall.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The original plans to the women's dorm. What would later become Marron Hall is the wing of the building labeled old addition." image-path="oldhokonahall.jpg" %}
 
 But after South Hall was built UNM and the country were subject to the Depression. But this only ramped up the building on campus. The Public Works Administration built a multitude of new buildings on UNM’s campus to help revitalize Albuquerque’s economy. And again by 1941 a new addition was needed. In 1941 the main part of Marron Hall was built as the space that the campus knows it now to be. The building was designed by John Gaw Meem. Between 1934-56 no other architecture firm was contracted for building on UNM campus. Unfortunately for Meem the United States was ramping up for World War II, creating less enrollment and a cut in federal funding, and his fee was cut to 3/5ths of the original 6% for Marron and Bandelier Hall, but funds could also be taken from the student fees collected by the university due to legislation passed in 1934.
 
@@ -27,14 +26,14 @@ But after South Hall was built UNM and the country were subject to the Depressio
 class="img-center"
 width="100%"
 caption="The south facade of South Hall, this is what now faces the Communications and Journalism building."
-image-path="images/southfacadeofsouthhall.jpg"
+image-path="southfacadeofsouthhall.jpg"
 %}
 
 {% include images/figure.html
 class="img-center"
 width="100%"
 caption="The women's dorm had many amenities, like the former porch."
-image-path="images/southhall.jpg"
+image-path="southhall.jpg"
 %}
 
 The 1941 renovation cost $95,000.
@@ -45,10 +44,10 @@ President Popejoy ordered the conversion of Old Hokona Hall to be renovated in 1
 class="img-center"
 width="100%"
 caption="Looking at Marron Hall overhead you can see where the original building was attached to the renovation."
-image-path="images/overheadmarronhall.jpg"
+image-path="overheadmarronhall.jpg"
 %}
 
 Marron Hall exists as both faculty offices and as a small base to student publications. Student publications, now the Daily Lobo, was experiencing a large growth in the 70’s. In 1977 Dick Pfaff, the supervisor of student publications requested more rooms in Marron Hall to house the growing program, this was documented by letters in the Student Publications archive. At the time the Hall was home to Anthropology and the Women’s Studies department. With the additional rooms allocated to the student publications Marron Hall exists as it does today.
 
-{% assign images = "images/1977studentpubletter.jpg, images/1977studentpubletter2.jpg, images/1977studentpubletter3.jpg, images/1977marronhallmap.jpg" | split: ', ' %}
+{% assign images = "1977studentpubletter.jpg, 1977studentpubletter2.jpg, 1977studentpubletter3.jpg, 1977marronhallmap.jpg" | split: ', ' %}
 {% include images/carousel.html images=images id="carousel-1" %}

@@ -8,8 +8,7 @@ header-subtitle: Replace this with a short phrase if your essay needs one
 category: Starter Essay
 popup-teaser: Replace this with one clear sentence that makes readers want to know more.
 card-description: Replace this with two sentences that summarize the story your essay tells and why it matters.
-card-image: /essays/starter-essay-advanced/images/sample-archive-photo.jpg
-header-image: images/sample-archive-photo.jpg
+header-image: sample-archive-photo.jpg
 header-caption: Replace with a short source note for the header image. Plain text only here, no links.
 header-position: center center
 start: 1950
@@ -41,13 +40,15 @@ When you are quoting a historical source at more length, use a Markdown blockquo
 
 Use this section to show readers the evidence behind your interpretation. Explain what you found, where you found it, and how it changed what you thought you knew.
 
-<!-- Full-width figure: the default for any landscape image wider than about 700px. -->
+<!-- Full-width figure: the default for any landscape image wider than about 700px.
+     image-path is just the filename: upload your images into this essay's folder,
+     next to index.md. -->
 
 {% include images/figure.html
   class="img-center"
   width="100%"
   caption="Replace this caption. Explain why the image matters, then cite it: [Center for Southwest Research](https://econtent.unm.edu/), collection and box number."
-  image-path="images/sample-archive-photo.jpg"
+  image-path="sample-archive-photo.jpg"
 %}
 
 <!-- Portrait documents are the exception to the full-width rule. A tall scan at 100%
@@ -57,7 +58,7 @@ Use this section to show readers the evidence behind your interpretation. Explai
   class="img-center"
   width="55%"
   caption="Replace this caption. Tall documents like ledgers, letters, and clippings belong at about 55%, centered."
-  image-path="images/sample-primary-source.jpg"
+  image-path="sample-primary-source.jpg"
 %}
 
 <!-- Image grid: two or three images that should be read together as one evidence set.
@@ -65,8 +66,8 @@ Use this section to show readers the evidence behind your interpretation. Explai
      photo and a tall document in the same grid; stack those at 100% instead. -->
 
 {% assign evidence_images =
-"images/sample-archive-photo.jpg,
-images/sample-second-photo.jpg" | split: ','
+"sample-archive-photo.jpg,
+sample-second-photo.jpg" | split: ','
 %}
 
 {% assign evidence_captions =
@@ -88,8 +89,8 @@ Use this section to explain chronology. What changed, when, and why? What stayed
      is sized from the first image and crops the second one to match. -->
 
 {% include images/juxtapose.html
-  image1="images/sample-archive-photo.jpg"
-  image2="images/sample-second-photo.jpg"
+  image1="sample-archive-photo.jpg"
+  image2="sample-second-photo.jpg"
   caption="Replace this with a caption that explains what readers should notice in the comparison, and cite both images."
 %}
 
@@ -97,9 +98,9 @@ Use this section to explain chronology. What changed, when, and why? What stayed
      Captions are plain text here: Markdown links will NOT render, so spell out the source. -->
 
 {% assign carousel_images =
-"images/sample-archive-photo.jpg,
-images/sample-second-photo.jpg,
-images/sample-primary-source.jpg" | split: ','
+"sample-archive-photo.jpg,
+sample-second-photo.jpg,
+sample-primary-source.jpg" | split: ','
 %}
 
 {% assign carousel_headers =
@@ -131,7 +132,7 @@ Background images cannot carry a caption the way a figure does, so put the sourc
 
 {% include scrollybox/bg.html
   height="220vh"
-  image-url="images/sample-archive-photo.jpg"
+  image-url="sample-archive-photo.jpg"
   position="center center"
   pre-box-space="100vh"
   font-size="200%"
@@ -150,7 +151,7 @@ The next component is different: it holds one background image while several scr
 
 {% include scrollybox/bg-multi-long.html
   bg-id="bg1"
-  image-url="images/sample-archive-photo.jpg"
+  image-url="sample-archive-photo.jpg"
   pre-box-space="0"
   font-size="150%"
   line-height="120%"
@@ -163,7 +164,7 @@ This is the place for narrative momentum rather than dense citation. Save the bo
 {% include scrollybox/bg-switch.html
   bg-id="bg1"
   switch-id="switch1"
-  image-url="images/sample-second-photo.jpg"
+  image-url="sample-second-photo.jpg"
 %}
 
 Replace this with the text that should scroll over the second image. The switch happens where the include sits, so put it at the moment your story actually turns.
@@ -179,7 +180,7 @@ Back in the normal text column again. If your page suddenly looks broken from th
 
 {% include images/jumbotron.html
   height="55vh"
-  image-path="images/sample-second-photo.jpg"
+  image-path="sample-second-photo.jpg"
   box-align="left"
   title="Replace this title"
   text="Replace this with a sentence that belongs over a full-width banner, or delete both title and text for a plain banner image."

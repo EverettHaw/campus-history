@@ -3,11 +3,10 @@ title: Womens Resource Center
 author: Adriana Gutierrez
 date: 2025-05-13
 layout: essay
-card-image: /essays/womens-resource-center/images/wrc-building.jpeg
 popup-teaser: A living legacy of the women who reshaped UNM.
 card-description: The Women's Resource Center carries forward a legacy of resistace and institutional change, and is now a home for advocacy, support, and equity.
 header-title: Womens Resource Center
-header-image: images/wrc-building.jpeg
+header-image: wrc-building.jpeg
 header-position: 0px
 category: Student Resource
 ---
@@ -20,7 +19,7 @@ For centuries, women were told to be silent, that their words meant nothing and 
   class="img-right"
   width="66%"
   caption="Women at UNM 1972-73"
-image-path="images/kic-document-0001.jpg"
+image-path="kic-document-0001.jpg"
 %}
 For women, the start of revolutionary change began in the early 1970's, where women at UNM focused on gaining and maintaining a voice that would be heard throughout the entire campus. In the 70's, women at UNM began developing a series of courses that would be known as, Women Studies. With the approval of the University President, in the summer of 1974 Women Studies officialy offered their first course. At the time, these courses were only meant to serve and educate women, this meant that all courses offered would be facilitated strictly by women for women. Sounds pretty straightforward right? However, you would be suprised to know that these few courses did not initially focus on women's rights and there was no framework surrounding the discrimmination women face. The goal was to simply get women into the classroom. The courses they provided focused on guiding women in their personal lives and included topics like, women's marital status, navigating life post-divorce, single-women, widowed-women, and the return to campus after having a child. While surely these topics were fit for the 1970's, this was only the beginning of the radical change that was to come. 
 
@@ -30,8 +29,8 @@ The figure to the right highlights statistics from 1972-73 that display an overl
 As time went on, studies progressed. Women Studies that once offered only one course, grew larger at an extremely fast rate, changing year by year. While majority of students in the studies were women, it was not exclusive. Focus shifted in the mid 1970's, the notion that women were made to only be mothers and wives finally grew into the ideology that women were much more than a small percentage of a greater picture. Eventually, feminists from all over the country came to visit classrooms and present lectures that would teach women about fields they otherwise were not skilled for, due to the systemic discrimination women were faced with; how to be entrepreneurs, leaders, activists, doctors, scientists. Women Studies began offering courses on such things and taught women all about economics and how to develop skills in addition to their ability to be mothers and wives. Groups of women falculty, staff, and students, expressed their needs and concerns to the university and the university listened. Women Studies grew into something much larger, and behind the scences of it all, women fought for more space, more inclusivitity and came together in coalition to create what we know today as the Women's Resource Center (WRC). 
 
 {% assign wrc_documents_images =
-"images/img_0181.jpg,
-images/img_0182.jpg" | split: ','
+"img_0181.jpg,
+img_0182.jpg" | split: ','
 %}
 
 {% assign wrc_documents_captions =
@@ -57,8 +56,8 @@ In the 1970's the Womens Resource Center was developed to act as a center for wo
 
 
 {% include images/juxtapose.html
-image1="images/img_0187.jpeg"
-image2="images/img_0185.jpg"
+image1="img_0187.jpeg"
+image2="img_0185.jpg"
 caption="From proposals to simpe diagrams to history made."
 %}
 ## Programs in 1970's
@@ -85,9 +84,9 @@ Include but are not limited to:
 While there are no photos to be found of the W.C.C in 1972, today the Womens Resource Center plays a huge role in shaping students lives. From vibrant colors to a welcoming atmosphere, many students call this place a home away from home.
 {% 
 assign images = 
-"images/img_0183.jpg,
-images/img_9590.jpg,
-images/img_9543.jpg" | split: ','
+"img_0183.jpg,
+img_9590.jpg,
+img_9543.jpg" | split: ','
 %}
 
 {% 

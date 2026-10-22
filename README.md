@@ -37,7 +37,7 @@ folder, and replace the contents.
 ## How the site is put together
 
 ```
-essays/<folder>/index.md      one essay per folder, plus its own images/
+essays/<folder>/index.md      one essay per folder, its images and media beside it
 essays/starter-essay-*/       templates students copy
 _layouts/essay.html           essay pages: hero, prev/next arrows, content
 _layouts/wide.html            full-bleed pages: homepage, directory, map
@@ -56,11 +56,13 @@ campus map, driven by the KML files in `assets/kml/`).
 
 ### Essay front matter
 
-An essay's front matter drives more than its own page. `card-description` and
-`card-image` are what let it appear as a card in the directory, the map popups,
-and the homepage; `category` places it in the browse-by-category strip and
-supplies the eyebrow above the hero title; `header-image` and `header-caption`
-build the hero. See `student-guide.md` for the full list.
+An essay's front matter drives more than its own page. `header-image` and
+`header-caption` build the hero, and `header-image` doubles as the essay's card
+image in the directory, the map popups, and the homepage unless a `card-image`
+overrides it (`_includes/images/card-image.html`). `card-description` is the
+card's text; `category` places it in the browse-by-category strip and supplies
+the eyebrow above the hero title. Image fields take a bare filename from the
+essay's folder. See `student-guide.md` for the full list.
 
 Two conventions worth knowing:
 
@@ -76,7 +78,7 @@ The Featured and Recommended blocks are curated in
 [`_data/homepage.yml`](_data/homepage.yml) by essay folder name, in the order
 they should appear. Adding an essay to the site does **not** put it on the
 homepage — list it there. Entries that don't resolve, or that lack a
-`card-description` or `card-image`, are skipped silently rather than rendered
+`card-description` or an image, are skipped silently rather than rendered
 broken.
 
 ## Deployment

@@ -18,8 +18,8 @@ category: Digital History
   _data/homepage.yml by folder name. See that file for the rationale.
 
   Liquid has no lookup-by-key, so each slug is resolved by scanning `essays`
-  for a matching folder. Both sides are downcased so a capitalised folder like
-  essays/University-Police/ still matches a lowercase entry in the data file.
+  for a matching folder. Both sides are downcased so a capitalised folder
+  still matches a lowercase entry in the data file.
 {% endcomment %}
 
 {% assign featured = nil %}
@@ -36,24 +36,21 @@ category: Digital History
       {% break %}
     {% endif %}
   {% endfor %}
-  {% if item and item.title and item.card-description and item.card-image %}
+  {% capture card_src %}{% include images/card-image.html essay=item %}{% endcapture %}
+  {% if item and item.title and item.card-description and card_src != '' %}
     {% comment %}
-      Store root-relative paths here, with no baseurl. The script below prepends
-      site.baseurl when it swaps in a random essay, so running these through
-      relative_url would duplicate the baseurl in production.
+      The url is stored root-relative, with no baseurl: the script below
+      prepends site.baseurl when it swaps in a random essay, so running it
+      through relative_url would duplicate the baseurl in production. The
+      image is already a finished URL from card-image.html, baseurl included.
     {% endcomment %}
-    {% assign card_image = item.card-image | strip %}
-    {% unless card_image contains '://' %}
-      {% assign card_image_first = card_image | slice: 0, 1 %}
-      {% if card_image_first != '/' %}{% assign card_image = card_image | prepend: '/' %}{% endif %}
-    {% endunless %}
     {% if feature_count > 0 %},{% endif %}
     {
       "title": {{ item.title | jsonify }},
       "category": {{ item.category | default: "Campus History" | jsonify }},
       "description": {{ item.popup-teaser | default: item.card-description | jsonify }},
       "url": {{ item.url | jsonify }},
-      "image": {{ card_image | jsonify }}
+      "image": {{ card_src | jsonify }}
     }
     {% assign feature_count = feature_count | plus: 1 %}
     {% comment %} First resolved entry is the pre-JavaScript default. {% endcomment %}
@@ -97,7 +94,7 @@ category: Digital History
   {% if featured %}
   <section class="home-feature" aria-labelledby="featured-story" data-featured-essays="{{ feature_json | strip_newlines | escape }}">
     <a class="home-feature__image" data-feature-link href="{{ featured.url | relative_url }}">
-      <img data-feature-image src="{% include images/image-path.html image-path=featured.card-image %}" alt="">
+      <img data-feature-image src="{% include images/card-image.html essay=featured %}" alt="">
     </a>
     <div class="home-feature__story">
       <p class="home-kicker">Featured Essay <span data-feature-category>{{ featured.category }}</span></p>
@@ -126,12 +123,11 @@ category: Digital History
             {% break %}
           {% endif %}
         {% endfor %}
-        {% if essay and essay.card-description and essay.card-image %}
+        {% capture card_src %}{% include images/card-image.html essay=essay %}{% endcapture %}
+        {% if essay and essay.card-description and card_src != '' %}
         <article class="home-essay-row">
           <a href="{{ essay.url | relative_url }}">
-            {% if essay.card-image %}
-            <img src="{% include images/image-path.html image-path=essay.card-image %}" alt="">
-            {% endif %}
+            <img src="{{ card_src }}" alt="">
             <span>
               <span class="home-essay-row__category">{{ essay.category | default: "Campus History" }}</span>
               <strong>{{ essay.title }}</strong>
@@ -230,7 +226,7 @@ category: Digital History
     var featureLinks = featureModule.querySelectorAll('[data-feature-link]');
 
     if (feature) {
-      if (featureImage) featureImage.src = '{{ site.baseurl }}' + feature.image;
+      if (featureImage) featureImage.src = feature.image;
       if (featureTitle) featureTitle.textContent = feature.title;
       if (featureCategory) featureCategory.textContent = feature.category;
       if (featureDescription) featureDescription.textContent = feature.description;

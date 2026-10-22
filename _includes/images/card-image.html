@@ -1,0 +1,19 @@
+{%- comment -%}
+  The URL of the image that stands for an essay in the directory, the essay
+  lists, the map and the homepage: its card-image if it sets one, otherwise
+  its header-image. Emits nothing when the essay has neither.
+
+  A bare filename resolves against the essay's own folder, not the folder of
+  the page doing the listing, so card-image and header-image are written the
+  same way as every other image in an essay: mvh-construction.jpg
+
+  Like image-path.html, this emits the URL and nothing else, so it can be
+  dropped straight into a src attribute.
+
+  Parameters:
+    essay: the essay's page object (required)
+{%- endcomment -%}
+{%- assign card_source = include.essay.card-image | default: include.essay.header-image -%}
+{%- if card_source -%}
+  {%- include images/image-path.html image-path=card_source page-dir=include.essay.dir -%}
+{%- endif -%}

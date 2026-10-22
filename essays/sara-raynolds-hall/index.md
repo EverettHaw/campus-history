@@ -5,9 +5,8 @@ layout: essay
 date: 2019-04-20
 popup-teaser: Check out Sara Raynolds Hall and travel back in time one hundred years
 card-description: A Mayan Pueblo Revival building built in 1920 to house the Home Economics Department
-card-image: /essays/sara-raynolds-hall/images/srh_construction1.jpg
 header-title: Sara Raynolds Hall
-header-image: images/srh_construction1.jpg
+header-image: srh_construction1.jpg
 type: classrooms
 start: 1920
 end: 1963
@@ -20,7 +19,7 @@ It's 1920. The Great War had just ended. The men are coming back home and the wo
 
 
 ## Overview 
-{% include images/figure.html class="img-center" width="100%" caption="The construction of Sara Raynolds Hall" image-path="images/srh_construction1.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The construction of Sara Raynolds Hall" image-path="srh_construction1.jpg" %}
 
 Sara Raynolds Hall is a single-story Mayan Pueblo Revival building on the southern edge of the main campus of the University of New Mexico. It sits on a small rise just north of Central Avenue, with its front facade facing west to Terrance Street. It is a U-shaped brick and stucco building with 12-over-1 double hung wood windows and exaggerated, geometric buttresses on the exterior corners of the building. 
 
@@ -31,7 +30,7 @@ The landscape includes several dozen evergreens including the largest cedar on c
 ## Early History
 Built in 1920, at a cost of $15,720, Sara Raynolds Hall was designed by Albuquerque’s first architect, Edward Buxton Christy (1860-1934) and professor Arno Leupold. It is one of a handful of buildings on campus to be on the [National Register of Historic Places](https://npgallery.nps.gov/AssetDetail/NRIS/88001544). Dedicated on Mother’s Day of 1920, the building was named after the mother of one of its biggest financial contributors, Joshua Raynolds, a local businessman. Although I could find no records of what early classes were taught here, typical Home Economics courses during this period emphasized a scientific and economic approach to childrearing, homemaking, and domestic skills. It is easy to envision Home Economics as just another institutional effort to reinforce traditional sex roles, but the history of this field is more complex and has direct ties to the increased literacy and employability of women and the suffrage movement.  
 
-{% assign images = "images/srh_postcard.jpg, images/srh-ej_merchant_letter.jpg, images/srh-floor_plan.jpg, images/srh-contract_bond_front_side.jpg, images/srh-contract_bond_back_side.jpg" | split: ', ' %}
+{% assign images = "srh_postcard.jpg, srh-ej_merchant_letter.jpg, srh-floor_plan.jpg, srh-contract_bond_front_side.jpg, srh-contract_bond_back_side.jpg" | split: ', ' %}
 {% include images/carousel.html images=images id="carousel-1" %}
 
 
@@ -41,9 +40,9 @@ Correspondence between UNM and [The Works Progress Administration](https://www.p
 
 
 {% assign images = 
-"images/srh-wpa_letter.jpg,
-images/srh-wpa_approval.jpg,
-images/srh-western-union-receipt.jpg" | split: ','
+"srh-wpa_letter.jpg,
+srh-wpa_approval.jpg,
+srh-western-union-receipt.jpg" | split: ','
 %}
 
 {% include images/carousel.html
@@ -54,7 +53,7 @@ images = images
 ## Sara Raynolds Hall Shifts Use
 In 1963, the College of Education Complex was completed and included a new Home Economics Building as part of its plan. Following that move, Sara Raynolds Hall was used as studios for graduate students in the Art Department. It was added to the National Register of Historic Places and the New Mexico Register of Cultural Properties in 1988. 
 
-{% include images/figure.html class="img-center" width="100%" caption="Commemoration of the new Home Economics Building, 1963. A time capsule was inserted behind this placard as part of the construction of the new Education Complex." image-path="images/srh-1960s-placard.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Commemoration of the new Home Economics Building, 1963. A time capsule was inserted behind this placard as part of the construction of the new Education Complex." image-path="srh-1960s-placard.jpg" %}
 
 
 ## Sara Raynolds Hall Today 
@@ -64,7 +63,7 @@ Once a state-of-the-art facility built in the prevailing architectural style of 
 
 Sara Raynolds Hall is small and has seen better days, but it harkens back to a golden age of the university, a time between wars, shorty after statehood, when UNM was growing and so many things seemed possible.     
 
-{% assign images = "images/srh-front-facade.jpg, images/srh-south-facade.jpg, images/srh-ne-facade.jpg" | split: ', ' %}
+{% assign images = "srh-front-facade.jpg, srh-south-facade.jpg, srh-ne-facade.jpg" | split: ', ' %}
 {% include images/carousel.html images=images id="carousel-2" %}
 
 {% capture bibliography %}

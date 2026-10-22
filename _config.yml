@@ -7,5 +7,3 @@ description: Essays on the history of the University of New Mexico campus
 # /directory.html) so that trailing-slash links work on any static server,
 # and so top-level pages match the essay URLs.
 permalink: pretty
-
-essay-images: /essays/images

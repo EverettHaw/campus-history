@@ -1,15 +1,15 @@
 # Homepage curation.
 #
 # Entries are essay FOLDER names (essays/<folder>/), not titles. Matching is
-# case-insensitive, so `university-police` finds `essays/University-Police/`.
+# case-insensitive.
 #
 # Curation lives here rather than in essay front matter so that the order below
 # is the order on the page, and so students copying a starter essay cannot put
 # themselves on the homepage.
 #
-# An essay listed here still needs card-description and card-image in its front
-# matter to render a card. Anything listed but missing those is skipped rather
-# than rendered broken.
+# An essay listed here still needs a card-description and an image (its
+# header-image, or a card-image if it sets one) to render a card. Anything
+# listed but missing those is skipped rather than rendered broken.
 
 # Random rotation in the "Featured Essay" block. First entry is also the
 # server-rendered default, i.e. what shows before JavaScript picks one and what

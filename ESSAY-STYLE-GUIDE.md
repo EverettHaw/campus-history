@@ -47,8 +47,10 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Use individual `images/figure.html` includes with `img-left` or `img-right` only when the surrounding paragraph explicitly discusses the image, for example "the figure to the right shows...". Do not use side-by-side floated figures to create a gallery; use `image-grid` or `carousel` instead.
 - Captions should be kept close to the image they describe and formatted consistently.
 - URLs in image captions should be encapsulated as a `[source](URL)` link in the caption.
-- Image paths should resolve from the essay page directory. For essay-local files, use paths like `images/example.jpg`, not duplicated folder paths such as `popejoy-hall/example.jpg` or `essays/popejoy-hall/images/example.jpg`.
-- Check that every `image-path` value points to an existing file with the exact same spelling, extension, capitalization, spaces, and punctuation. Broken images are often caused by small path mismatches rather than missing files.
+- An essay's images sit in its folder, next to `index.md`, and are referred to by bare filename: `example.jpg`, not `images/example.jpg`, `popejoy-hall/example.jpg`, or `/essays/popejoy-hall/example.jpg`. The same goes for `header-image` and `card-image` in front matter.
+- Image filenames are lowercase, hyphenated, and keep their extension. Rename anything with spaces, parentheses, capitals, or no extension, and update its references.
+- Check that every `image-path` value points to an existing file with the exact same spelling, extension, and capitalization. Broken images are often caused by small mismatches rather than missing files, and macOS hides capitalization mistakes that break on the live site.
+- Leave out `card-image` when it would repeat `header-image`; the card falls back to the header image.
 - Images should not appear immediately before a heading; move the image to after the heading so the section title introduces the visual material.
 - `##` section headings should always come before any image include that belongs to that section. If an image include is immediately followed by an `##` heading, reverse the order unless the image is intentionally ending the previous section.
 - Carousel includes must be checked in the browser after standardization. Confirm that all carousel images render, arrows/pagination work, captions appear with the correct slide, and multiple carousels on the same page use unique `id` values.
@@ -183,7 +185,7 @@ Default to full width:
   class="img-center"
   width="100%"
   caption="..."
-  image-path="images/example.jpg"
+  image-path="example.jpg"
 %}
 ```
 {% endraw %}
@@ -215,8 +217,8 @@ Captions move into the grid's `captions` list, split on `|` so caption text can 
 {% raw %}
 ```liquid
 {% assign pond_criticism_images =
-"images/duck-pond-0004.jpg,
-images/duck-pond-0003.png" | split: ','
+"duck-pond-0004.jpg,
+duck-pond-0003.png" | split: ','
 %}
 
 {% assign pond_criticism_captions =
