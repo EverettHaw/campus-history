@@ -3,7 +3,7 @@
 title: Johnson Center
 author: Everett Hawthorn
 category: Student Resource                 # change to a category from the student guide
-header-image: johnson-center.jpeg   # the filename of your own image
+header-image: johnson-center.jpg   # the filename of your own image
 header-caption: UNM Facilities Design and Construction
 
 # Fill these in later, once your research is under way.
